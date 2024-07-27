@@ -1,0 +1,49 @@
+{
+    "men":[{
+        "shoes":[
+            {
+                "image":"",
+                "title":"",
+                "colors":""
+            }
+        ],
+        "coats":[{
+            "image":"",
+            "title":"",
+            "colors":""
+        }],
+        "sunglasses":[{
+            "image":"",
+            "title":"",
+            "colors":""
+        }],
+        "classic":[{
+            "image":"",
+            "title":"",
+            "colors":""
+        }],
+        "men-bag":[{
+            "image":"",
+            "title":"",
+            "colors":""
+        }],
+        "mNew":[]
+
+    }
+        
+    ],
+    "women":[{
+        "shoes":[],
+        "trench":[],
+        "bag":[],
+        "wNew":[]
+
+    }],
+    "accessories":[],
+    "child":[{
+        "girl":[],
+        "boy":[],
+        "newborn":[],
+        "gift":[]
+    }]
+}
