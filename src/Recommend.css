@@ -1,0 +1,53 @@
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.slide-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%; /* Ensure items take up full width of the slider container */
+}
+
+.slide-image {
+    width: 100%; /* Adjust image width to fit within slide item */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.slide-info {
+    margin-top: 10px;
+}
+
+.slick-prev, .slick-next {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(145, 140, 140) !important; 
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 20px;
+    color: white;
+}
+
+.slick-prev {
+    left: -45px;
+}
+
+.slick-next {
+    right: -45px;
+}
