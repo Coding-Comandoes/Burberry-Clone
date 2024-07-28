@@ -63,7 +63,8 @@ const SingleProduct = () => {
           size:el.size,
           fabric:el.fabric,
           fit:fit,
-          img:el.img
+          img:el.img,
+          color:el.color
       }
       let res = await fetch('http://localhost:3000/cart',{
           method:"POST",
@@ -329,5 +330,3 @@ const renderDefaultView = () => (
 }
 
 export default SingleProduct
-
-
