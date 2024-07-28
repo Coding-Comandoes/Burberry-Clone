@@ -3,7 +3,6 @@ import logo from '../assets/logo.svg';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faUser, faShoppingBag, faBars } from '@fortawesome/free-solid-svg-icons';
-import Home from './Home';
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {

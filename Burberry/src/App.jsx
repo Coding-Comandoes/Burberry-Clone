@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom'
 import Product from './components/Pages/SingleProduct/Product'
-import Login from './Componets/Login'
+import Navbar from './components/Navbar'
 import Men from './components/Pages/SingleProduct/Men'
 
 
@@ -13,7 +13,7 @@ function NavigationButtons() {
       <div>
           <button onClick={() => navigate('/')}>Home</button>
           <button onClick={() => navigate('/addProduct')}>AddProduct</button>
-          <button onClick={() => navigate('/login')}>Login</button>
+          {/*<button onClick={() => navigate('/login')}>Login</button>*/}
       </div>
   );
 }
@@ -33,12 +33,12 @@ useEffect(()=>{
 
   return (
     <>
-   
+   <Navbar/>
     <NavigationButtons /> 
     <Routes>
       <Route path='/' element={<Product data={ecom}/>} />
         <Route path='/addProduct' element={<Men/>} />
-        <Route path='/Login' element={<Login/>} />  
+        {/*<Route path='/Login' element={<Login/>} />  */}
         </Routes>
   
     

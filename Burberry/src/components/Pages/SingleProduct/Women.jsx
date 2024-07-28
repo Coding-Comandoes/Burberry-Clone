@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import './Men.css' ;
-import Product from "./Product";
+
 
 const ReadMoreLess = () => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -13,20 +13,22 @@ const ReadMoreLess = () => {
     return (
         <div >
             <p className="text">
-            The Burberry menswear collection offers a diverse range of styles for every season, including signature pieces like car coats and matching sets in Check patterns.
+            The Burberry womenswear collection features a diverse range of styles for every season, including a range of summer pieces and signature styles like the iconic trench coat and lightweight Check scarves alongside swimwear, classic shirt styles, hats and tops.
+
             <br />
             <br />
                 {isExpanded && (
                     <span className="more-text">
-                        The selection of new-season styles includes footwear, hats, lightweight jackets, casual T-shirts and summer swimwear.
+                        Accessories include new-season bags in a range of styles and colours alongside the latest shoe collection, new jewellery and eyewear.
+
                         <br />
                         <br />
 
-                        View accessories including bags in a range of styles and colours and new eyewear.
+                        The collection includes pieces detailed with the iconic Burberry Check, British motifs and the latest prints.
                         <br />
                         <br />
 
-                        The iconic Burberry Check and British motifs feature across new pieces designed in slim, regular and relaxed cuts.
+                        View the latest styles in slim and relaxed cuts.
                     </span>
                 )}
             </p>
@@ -37,11 +39,11 @@ const ReadMoreLess = () => {
     );
 };
 
-const Men = () => {
+const Women = () => {
     return (
         <div className="size">
             <div className="container">
-                <h2 >Menswear</h2>
+                <h2 >Womenswear</h2>
                 <div><ReadMoreLess/></div>
 
             </div>
@@ -90,4 +92,4 @@ const Men = () => {
         </div>    
     )
 } 
-export default Men;
+export default Women;
