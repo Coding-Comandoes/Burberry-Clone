@@ -118,7 +118,7 @@ const Navbar = () => {
     <nav className='main-navbar'>
        {/*NAVBAR BURBERRY LOGO */}
         <div className='logo'>
-          <Link to="/product"> <img src={logo} alt="burberry-logo" onClick={toggleHomepage}></img></Link>
+          <Link to="/home"> <img src={logo} alt="burberry-logo" onClick={toggleHomepage}></img></Link>
           
         </div>
         {/* NAVBAR MENU ITEMS*/}

@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Men from './components/Pages/SingleProduct/Men'
 import Women from './components/Pages/SingleProduct/Women'
 import Child from './components/Pages/SingleProduct/Child';
+import Home from './components/Pages/SingleProduct/Home';
 
 
 function App() {
@@ -30,7 +31,8 @@ useEffect(()=>{
    </header>
     <div>
     <Routes>
-      <Route path="/product" element={<Product data={ecom}/>} />
+      <Route path='/' element={<Home/>} />
+      <Route path="/home" element={<Home/>} />
       <Route path="/men" element={<Men/>} />
       <Route path="/women" element={<Women/>} />
       <Route path="/child" element={<Child/>}/>
