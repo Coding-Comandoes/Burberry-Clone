@@ -1,6 +1,4 @@
-*{
-  font-family:Arial, Helvetica, sans-serif !important;
-}
+
 .mainDiv{
   margin: 0px;
   padding: 30px 40px 30px 70px;
@@ -10,7 +8,7 @@
 }
 .signin{
     width: 54%;
-    height: 300px;
+    height: auto;
     font-family: Arial, Helvetica, sans-serif !important;
 }
 
@@ -63,7 +61,7 @@
   }
   
   ul li:before {
-    content: "✔";
+  
     margin-right: 10px;
     color: #6b7280; 
   }
@@ -130,7 +128,7 @@
   .signin {
     width: 100%;
     margin-bottom: 2px solid black;
-    height:25%;
+  
   }
   .register-info {
     margin-left:0;

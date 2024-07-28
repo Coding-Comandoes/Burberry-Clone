@@ -7,7 +7,9 @@ import Men from './components/Pages/SingleProduct/Men'
 import Women from './components/Pages/SingleProduct/Women'
 import Child from './components/Pages/SingleProduct/Child';
 import Home from './components/Pages/SingleProduct/Home';
-
+import Footer from './components/Footer';
+import SignIn from './components/Pages/SingleProduct/SignIn';
+import Signup from './components/Pages/SingleProduct/SignUp';
 
 function App() {
   const [ecom,setEcom] = useState([]);
@@ -36,12 +38,16 @@ useEffect(()=>{
       <Route path="/men" element={<Men/>} />
       <Route path="/women" element={<Women/>} />
       <Route path="/child" element={<Child/>}/>
-      <Route path="" element={<Product/>}/>
+      <Route path="/product" element={<Product/>}/>
+      <Route path="/signin" element={<SignIn/>}/>
 
 
         {/*<Route path='/Login' element={<Login/>} />  */}
         </Routes>
     </div>
+      <div>
+        <footer><Footer/></footer>
+      </div>
     </div>
       
     </>

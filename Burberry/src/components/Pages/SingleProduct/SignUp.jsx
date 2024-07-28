@@ -13,7 +13,6 @@ import Dialog from '@mui/material/Dialog';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Radio from '@mui/material/Radio'; // Import Radio
 import RadioGroup from '@mui/material/RadioGroup'; // Import RadioGroup
-import Image2 from '../components/Image2.png';
 import './signup.css';
 
 // Define the StyledDialog component
@@ -111,7 +110,7 @@ const Signup = () => {
             >
                 <div className="dialog">
                     <div className="img">
-                        <img src={Image2} alt="Burberry Logo" width="100%" height="100%" />
+                        <img src="https://assets.burberry.com/is/image/Burberryltd/C06DD96F-0624-4E5E-856A-7E3CF3671B24?$BBY_V3_ML_1.275$&wid=479&hei=610" alt="Burberry Logo" width="100%" height="100%" />
                     </div>
                     <div className="text">
                         <DialogTitle>Sign Up</DialogTitle>

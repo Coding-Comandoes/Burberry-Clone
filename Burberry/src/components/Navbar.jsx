@@ -434,7 +434,7 @@ const Navbar = () => {
             </div>
           ) : null}
         </div>
-          <a href="#account" className="user-icon"><FontAwesomeIcon icon={faUser} /></a>
+          <Link to="/signin" className="user-icon"><FontAwesomeIcon icon={faUser} /></Link>
           <a href="#cart" className="cart-icon"><FontAwesomeIcon icon={faShoppingBag} /></a>
           <a href="#cart" className="hamberg-icon" onClick={toggleSidebar}><FontAwesomeIcon icon={faBars} /></a>
         </div>

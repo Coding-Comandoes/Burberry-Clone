@@ -21,9 +21,10 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
-import Burberry from '../components/Burberry.png';
+import { Link } from 'react-router-dom';
 
-export default function SignIn() {
+
+const SignIn =() => {
   const [user, setUser] = useState([]);
 
   const [country, setCountry] = useState('');
@@ -213,7 +214,7 @@ export default function SignIn() {
   };
 
   return (
-    <div className="mainDiv">
+    <div className="mainDiv" style={{height:"60%"}}>
       <div className="signin">
         <h3>Sign In</h3>
         <h4>Sign in to access your account</h4>
@@ -257,7 +258,7 @@ export default function SignIn() {
           >
             <div className="dialog-content" >
               <div className="image" >
-                <img src={Burberry} alt="Burberry Logo" width="100%" height="100%" />
+                <img src="https://i.pinimg.com/736x/6a/d9/0a/6ad90a1912d5550252d2c48eec62a750.jpg" alt="Burberry Logo" width="100%" height="100%" />
               </div>
               <div className="textpage" >
                 <DialogTitle>Reset Password</DialogTitle>
@@ -435,7 +436,7 @@ export default function SignIn() {
         >
      <div className="dialog-content" >
        <div className="image">
-         <img src={Burberry} alt="Burberry Logo" />
+         <img src="https://i.pinimg.com/736x/6a/d9/0a/6ad90a1912d5550252d2c48eec62a750.jpg" alt="Burberry Logo" />
        </div>
       <div className="textpage" >
         <DialogTitle><h3>Almost there !</h3><br></br>
@@ -460,7 +461,7 @@ export default function SignIn() {
          </DialogContentText>
          </DialogContent>
          <DialogActions>
-           <Button id="reset" onClick={handleSuccessDialogClose}>Continue Shopping</Button>
+           <Link to="/home"><Button id="reset" onClick={handleSuccessDialogClose}>Continue Shopping</Button></Link>
          </DialogActions>
       </div>
      </div>
@@ -475,4 +476,5 @@ export default function SignIn() {
     </div> {/*register-info div close*/}
     </div> //main Div Close
   )
-}
+};
+export default SignIn;

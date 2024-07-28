@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './card.css'; // Import CSS for styling
 
-const Card = ({ imageUrl, carouselImages, title, desc, price }) => {
+const Card = ({id, imageUrl, carouselImages, title}) => {
     const [showCarousel, setShowCarousel] = useState(false);
 
     return (
@@ -15,8 +15,8 @@ const Card = ({ imageUrl, carouselImages, title, desc, price }) => {
             
             {showCarousel && (
                 <div className="carousel-container  carousel media-carousel-labels">
-                        {carouselImages.map((img, index) => (
-                            <img key={index} src={img} alt={`Carousel ${index}`} className="carousel-image" />
+                        {carouselImages.map(({img, index}) => (
+                            <img  src={img} alt={`Carousel ${index}`} className="carousel-image" />
                         ))}
                 </div>
             )}

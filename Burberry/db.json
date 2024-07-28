@@ -3,15 +3,15 @@
     {
       "id": "1",
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/A2DD3EEC-EC36-486A-B4CA-E57A567E9BE6?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImage":[
-          "https://assets.burberry.com/is/image/Burberryltd/3EE81A82-598F-4425-BB17-EF9239FF4F6A?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/CF87E097-FFD8-410A-85EB-4F624D645971?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/5DBA4578-D71E-4095-970D-DB333C215E3E?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/0C4F5530-6763-4D21-9641-60253415A853?$BBY_V3_SL_1$&wid=1050&hei=1050"
+      "carouselImages": [
+        "https://assets.burberry.com/is/image/Burberryltd/3EE81A82-598F-4425-BB17-EF9239FF4F6A?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/CF87E097-FFD8-410A-85EB-4F624D645971?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/5DBA4578-D71E-4095-970D-DB333C215E3E?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/0C4F5530-6763-4D21-9641-60253415A853?$BBY_V3_SL_1$&wid=1050&hei=1050"
       ],
       "title": "Wool Polo Shirt",
       "price": "960.00",
-      "prodDetails":"A polo shirt in Italian-woven wool, cut to a regular fit.– Rib-knit collar– Regular fit. Fits true to size, take your normal size.– Item 80831821",
+      "prodDetails": "A polo shirt in Italian-woven wool, cut to a regular fit.– Rib-knit collar– Regular fit. Fits true to size, take your normal size.– Item 80831821",
       "size": "– Length: 66cm/26in (size UK M)– Model’s height: 186cm/6ft 1in. Model wears size UK L",
       "fabric": "– 100% wool– Specialist dry clean– Imported",
       "color": "Ivy",
@@ -36,10 +36,10 @@
     {
       "id": "2",
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/979BE24F-AF68-45E3-A334-C070715AF341?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImage":[
-          "https://assets.burberry.com/is/image/Burberryltd/8F78B4FC-A40F-4FBC-BCC2-6D87F0EA2384?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/38B12517-28E9-477B-9BEB-FBAC97998C1C?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/90331725-FED7-4E24-BC53-64CECF8AB256?$BBY_V3_ML_1$&wid=1050&hei=1050"
+      "carouselImage": [
+        "https://assets.burberry.com/is/image/Burberryltd/8F78B4FC-A40F-4FBC-BCC2-6D87F0EA2384?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/38B12517-28E9-477B-9BEB-FBAC97998C1C?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/90331725-FED7-4E24-BC53-64CECF8AB256?$BBY_V3_ML_1$&wid=1050&hei=1050"
       ],
       "prodDetails": "A crew-neck sweater in lightweight wool with contrast stitching at the shoulder. Cut to a regular fit.– Rib-knit trims– Regular fit. Fits true to size, take your normal size.– Item 80775581",
       "size": "– Length: 68cm/26.8in (size UK L)– Model’s height: 184cm/6ft. Model wears size UK L",
@@ -64,12 +64,12 @@
     },
     {
       "id": "3",
-      "imageUrl":"https://assets.burberry.com/is/image/Burberryltd/F1994007-4642-4716-81A2-E793B9E31E61?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImage":[
-          "https://assets.burberry.com/is/image/Burberryltd/037F8325-853C-4693-9090-F5D399205657?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/E5DC7BFC-C6E1-4A3C-BF37-B32154792308?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/62B96915-EC67-40B0-9A34-F65ACDB3AF64?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/E8887C48-59D0-4B07-A86F-64BD4BE3BC8B?$BBY_V3_SL_1$&wid=1050&hei=1050"
+      "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/F1994007-4642-4716-81A2-E793B9E31E61?$BBY_V3_SL_1$&wid=1050&hei=1050",
+      "carouselImage": [
+        "https://assets.burberry.com/is/image/Burberryltd/037F8325-853C-4693-9090-F5D399205657?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/E5DC7BFC-C6E1-4A3C-BF37-B32154792308?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/62B96915-EC67-40B0-9A34-F65ACDB3AF64?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/E8887C48-59D0-4B07-A86F-64BD4BE3BC8B?$BBY_V3_SL_1$&wid=1050&hei=1050"
       ],
       "color": "Soap",
       "prodDetails": "A sweater made in Italy from lightweight cotton mesh. The style is cut to a relaxed fit and subtly knitted with our Equestrian Knight Design.– Rib-knit trims– Relaxed fit: a looser cut than our regular fit. Consider taking a size down.– Item 80898301",
@@ -97,12 +97,12 @@
     },
     {
       "id": "4",
-      "image":  "https://assets.burberry.com/is/image/Burberryltd/F7B49226-0C05-4619-B848-E3AC12293870?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImage":[
-          "https://assets.burberry.com/is/image/Burberryltd/7FA40C91-7F5A-446A-95F8-9CA879ED076E?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/D09B9DD6-2159-4758-9264-F99F5BAE5404?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/5137629A-045D-49E8-8283-065363A452B0?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/113CB3C4-D70C-4119-B735-2E598DA07096?$BBY_V3_SL_1$&wid=1050&hei=1050"
+      "image": "https://assets.burberry.com/is/image/Burberryltd/F7B49226-0C05-4619-B848-E3AC12293870?$BBY_V3_SL_1$&wid=1050&hei=1050",
+      "carouselImage": [
+        "https://assets.burberry.com/is/image/Burberryltd/7FA40C91-7F5A-446A-95F8-9CA879ED076E?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/D09B9DD6-2159-4758-9264-F99F5BAE5404?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/5137629A-045D-49E8-8283-065363A452B0?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/113CB3C4-D70C-4119-B735-2E598DA07096?$BBY_V3_SL_1$&wid=1050&hei=1050"
       ],
       "title": "Cotton Mesh Shorts",
       "price": "1050.00",
@@ -131,11 +131,11 @@
     {
       "id": "5",
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/41B4197B-CE75-4644-9F46-0FBB0C47098D?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImage":[
-          "https://assets.burberry.com/is/image/Burberryltd/6177079B-E0F6-4CBF-8FBB-B6DE32D72E44?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/B7044E66-9657-4C90-B594-C2F61B7423BA?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/0C489026-60D5-46FF-88DD-2377B1509BB6?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/5895F84B-F73A-420E-BF1B-C201E5B033BD?$BBY_V3_SL_1$&wid=1050&hei=1050"
+      "carouselImage": [
+        "https://assets.burberry.com/is/image/Burberryltd/6177079B-E0F6-4CBF-8FBB-B6DE32D72E44?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/B7044E66-9657-4C90-B594-C2F61B7423BA?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/0C489026-60D5-46FF-88DD-2377B1509BB6?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/5895F84B-F73A-420E-BF1B-C201E5B033BD?$BBY_V3_SL_1$&wid=1050&hei=1050"
       ],
       "title": "Cotton Blend Shorts",
       "price": "680.00",
@@ -165,11 +165,11 @@
       "id": "6",
       "title": "Cotton Mesh Vest",
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/3D6C3FB6-4961-4E36-B228-BD0FF20658DD?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImage":[
-          "https://assets.burberry.com/is/image/Burberryltd/6875B7F0-E4C6-4267-8402-86617C31AA92?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/7B2FC230-8AA8-49FD-BC04-5D7ADDC2F737?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/AE2F5482-302C-4F96-BD4B-9F6D101022F5?$BBY_V3_ML_1$&wid=1050&hei=1050",
-          "https://assets.burberry.com/is/image/Burberryltd/802DC72D-E1DD-4A36-9862-06D008525399?$BBY_V3_SL_1$&wid=1050&hei=1050"
+      "carouselImage": [
+        "https://assets.burberry.com/is/image/Burberryltd/6875B7F0-E4C6-4267-8402-86617C31AA92?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/7B2FC230-8AA8-49FD-BC04-5D7ADDC2F737?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/AE2F5482-302C-4F96-BD4B-9F6D101022F5?$BBY_V3_ML_1$&wid=1050&hei=1050",
+        "https://assets.burberry.com/is/image/Burberryltd/802DC72D-E1DD-4A36-9862-06D008525399?$BBY_V3_SL_1$&wid=1050&hei=1050"
       ],
       "price": "1000.00",
       "prodDetails": "A crew-neck vest made in Italy from lightweight cotton mesh. The style is cut to a relaxed fit and subtly knitted with our Equestrian Knight Design.– Rib-knit collar– Knitted Equestrian Knight Design at shoulder– Relaxed fit: a looser cut than our regular fit. Consider taking a size down.– Item 80898271",
@@ -195,8 +195,19 @@
       ]
     }
   ],
-  "cart": [
-    
-  ],
-  "user": []
+  "cart": [],
+  "user": [
+    {
+      "id": 1722186999420.0159,
+      "country": "India",
+      "gender": "Miss",
+      "firstName": "Nityashree",
+      "lastName": "Maharatha",
+      "email": "smtsrichandan@gmail.com",
+      "password": "nmjs",
+      "phone": "+917735586269",
+      "signinEmail": "",
+      "signinPassword": ""
+    }
+  ]
 }
