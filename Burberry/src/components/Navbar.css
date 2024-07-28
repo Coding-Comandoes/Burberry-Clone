@@ -1,0 +1,384 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.main-navbar{
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height:45px;
+    padding: 30px 30px 25px 30px;
+    border-bottom: 1px solid #ccc;
+}
+.logo{
+    width:220px;
+    height:30px;
+}
+.nav-menu ul{
+    display:flex;
+    gap: 28px;
+    font-size: 20px;
+    font-weight:200;
+}
+.nav-menu ul li a:hover {
+color:blue;
+cursor:pointer;
+}
+.nav-icons {
+    display: flex; 
+    gap: 28px;
+    font-size: 28px;
+    margin-left: 80px;
+}
+.hamberg-icon{
+    display: none;
+    cursor: pointer;
+}
+
+.sidebar {
+    display: none;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin:0px 33px 0px 20px;
+  }
+  
+.close-icon {
+    cursor: pointer;
+  }
+  
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+}
+  
+.sidebar ul li {
+    margin: 10px 0;
+}
+.sidebar-footer {
+    bottom: 20px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: auto;
+}
+.sidebar-footer p{
+    padding:190px 12px 10px 12px; 
+}
+.sidebar-active{
+    display: block;
+}
+
+.sublist {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.sublist ul {
+    font-size: 8px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+    margin-top: 10px;
+}
+.caption {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+.sublist-container {
+    position: relative;
+    padding-right: 20px; 
+    padding-top: 20px;
+    width: 100%;
+}
+.arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px; 
+    color: black; 
+}
+.hidden-arrow {
+    display: none;
+}
+.back-arrow{
+ padding:0px 10px 20px 0px;
+}
+.sidebar .sidebar-header span:first-child {
+    cursor: pointer;
+}
+.dropdown-content {
+    display:flex;
+    position: absolute;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px 0px 0px 20px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height:350px;
+    justify-content:flex-start;
+    box-shadow: 0px 0px 2px  rgba(0, 0, 0, 0.1);
+    
+}
+.dropdown-content .column {
+    width: 16%;
+    cursor: pointer;
+}
+.dropdown-content .column h3 {
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dropdown-content .column ul {
+    list-style-type: none;
+    font-size: 15px;
+    flex-direction: column;
+} 
+.dropdown-content .column ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.search-container{
+    position: relative;
+    display: inline-block;
+}
+.search-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+  
+.search-box {
+    position: absolute;
+    top: 125%;
+    padding: 0.5rem;
+    width: 300px;
+    display: none;
+    border:1px solid black;
+    
+
+}
+.search-container:hover .search-box {
+    display: block;
+}
+.search-box input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+   padding:0.5rem;
+   width:100%;
+   margin-top: 100px;
+}
+  
+@media (max-width:1080px){
+.main-navbar{
+   height:80px;
+}
+.logo{
+    width:210px;
+    height:24px;
+}
+.nav-menu ul{
+        gap: 23px;
+        font-size: 16.5px;
+        font-weight:200;
+        margin-left: 20px;
+}
+.nav-icons {
+        gap: 25px;
+        font-size: 24px;
+        margin-left: 65px;
+}
+.sidebar {
+    width: 100%; /* Full width */
+    height: auto; 
+    padding: 20px;
+    background-color: #fff; /* White background color */
+    overflow-y: auto; /* Scrollable if content exceeds screen height */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.sidebar-section {
+    margin-bottom: 20px;
+}
+.sidebar-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333; 
+}
+
+.sublist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sublist li {
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; 
+    color: #555; 
+}
+
+
+.sublist li:hover {
+    color: #000;
+}
+
+.product-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.product {
+    text-align: center;
+    flex: 1;
+    padding: 0 10px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    max-width: 100px; 
+}
+
+.product p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+}
+
+
+@media (max-width:798px){
+.main-navbar{
+    height:60px;
+    padding: 30px 20px 20px 20px;
+}
+.logo{
+    width:150.5px;
+    height:27px;
+}
+.nav-menu ul{
+    display: none;
+}
+.user-icon{
+    display: none;
+}
+.nav-icons {
+    gap: 20px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.hamberg-icon{
+    display:block;
+    font-size:18px;
+}
+.sidebar-active ul{
+    padding:8px 32px 10px 12px;
+    font-size: 20px;
+}
+.sidebar-footer {
+    margin-top: auto;
+    padding:10px 12px 10px 12px;
+}
+.sidebar-footer p{
+    padding:190px 12px 10px 12px;
+    font-size: 18px;
+}
+.sidebar {
+    width: 100%;
+    padding: 10px;
+}
+
+.sidebar-section h2 {
+    font-size: 20px;
+}
+
+.sublist li {
+    font-size: 14px;
+    padding: 6px 0;
+}
+
+.product img {
+    max-width: 60px; /* Adjust as needed */
+}
+}
+    
+@media (max-width:970px){
+.main-navbar{
+        height:70px;
+}
+.logo{
+        width:130.5px;
+        height:27px;
+}
+.nav-menu ul{
+        display: none;
+}
+.user-icon{
+        display: none;
+}
+.nav-icons {
+        gap: 20px;
+        font-size: 18px;
+        margin-left: 20px;
+ }
+.hamberg-icon{
+        display:block;
+        font-size:18px;
+}
+.sidebar-active ul{
+        padding:8px 32px 10px 12px;
+        font-size: 20px;
+}
+.sidebar-footer {
+    margin-top: auto;
+    padding:190px 12px 10px 12px;
+}
+.sidebar-footer p{
+    padding:10px 12px 10px 12px;
+    font-size: 18px;
+}
+
+}
+
+
+
+ 
