@@ -1,22 +1,13 @@
 import { useEffect, useState } from 'react'
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom'
+import './App.css';
 import Product from './components/Pages/SingleProduct/Product'
 import Navbar from './components/Navbar'
 import Men from './components/Pages/SingleProduct/Men'
+import Women from './components/Pages/SingleProduct/Women'
+import Child from './components/Pages/SingleProduct/Child';
 
 
-
-function NavigationButtons() {
-  const navigate = useNavigate();  // Call useNavigate here
-
-  return (
-      <div>
-          <button onClick={() => navigate('/')}>Home</button>
-          <button onClick={() => navigate('/addProduct')}>AddProduct</button>
-          {/*<button onClick={() => navigate('/login')}>Login</button>*/}
-      </div>
-  );
-}
 function App() {
   const [ecom,setEcom] = useState([]);
 
@@ -33,16 +24,22 @@ useEffect(()=>{
 
   return (
     <>
-   <Navbar/>
-    <NavigationButtons /> 
+    <div>
+   <header>
+      <Navbar/> 
+   </header>
+    <div>
     <Routes>
-      <Route path='/' element={<Product data={ecom}/>} />
-        <Route path='/addProduct' element={<Men/>} />
+      <Route path="/product" element={<Product data={ecom}/>} />
+      <Route path="/men" element={<Men/>} />
+      <Route path="/women" element={<Women/>} />
+      <Route path="/child" element={<Child/>}/>
+
+
         {/*<Route path='/Login' element={<Login/>} />  */}
         </Routes>
-  
-    
-      
+    </div>
+    </div>
       
     </>
   )

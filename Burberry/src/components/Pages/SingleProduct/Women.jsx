@@ -51,40 +51,40 @@ const Women = () => {
             <div className="gallery-container " >
                 <a href="">
                     <h1 className="img-text">Burberry Classics</h1>
-                    <img src="https://assets.burberry.com/is/image/Burberryltd/7B73716A-B7FF-40BF-8098-56B5A5FD5F44?wid=1920" className="image-container" />
+                    <img src="https://assets.burberry.com/is/image/Burberryltd/D05993A8-6506-4D49-9C59-7273E35E69D5?wid=1920" className="image-container" />
                 </a>
             </div>
             <div className="container " >
                 <div >
                     <a href="">
                     <h1 className="img-text">Shoes</h1>
-                        <img src="https://assets.burberry.com/is/image/Burberryltd/1CD3FF68-139A-4075-8699-C673BBAD2181?wid=950" alt="" className="image-container" />
+                        <img src="https://assets.burberry.com/is/image/Burberryltd/7726F4ED-E8F0-489F-B130-F0E6454ABB84?wid=950" alt="" className="image-container" />
                     </a>
                 </div>
                 <div>
                     <a href="">
-                    <h1 className="img-text">Coats & Jackets</h1>
-                        <img src="https://assets.burberry.com/is/image/Burberryltd/7424FB0A-7EE3-4B10-B40D-20B31D64BDB6?wid=950" alt="" className="image-container" />
+                    <h1 className="img-text">Trench</h1>
+                        <img src="https://assets.burberry.com/is/image/Burberryltd/DE20997A-0A43-4FAE-8826-2995FDE41E19?wid=950" alt="" className="image-container" />
                     </a>
                 </div>
             </div>
             <div>
                 <a href="">
                 <h1 className="img-text">Bags</h1>
-                    <img src="https://assets.burberry.com/is/image/Burberryltd/FA053C10-8723-4780-ADD3-871E8B54500B?wid=1920" alt="" className="image-container" />
+                    <img src="https://assets.burberry.com/is/image/Burberryltd/7834F1C3-79C5-4CCF-A5E1-ED8EA798E904?wid=1920" alt="" className="image-container" />
                 </a>
             </div>
             <div className="container " >
                 <div>
                     <a href="">
                         <h1 className="img-text">Accessories</h1>
-                        <img src="https://assets.burberry.com/is/image/Burberryltd/189E815B-A75C-4546-AF83-393517FD7A52?wid=950" alt="" className="image-container"/>
+                        <img src="https://assets.burberry.com/is/image/Burberryltd/E4774D01-CC36-4391-890E-D2CC8A10C9D9?wid=950" alt="" className="image-container"/>
                     </a>
                 </div>
                 <div>
                    <a href="">
-                    <h1 className="img-text">Sunglasses</h1>
-                    <img src="https://assets.burberry.com/is/image/Burberryltd/21CD90B1-25F8-44A7-AA82-3A6E6FCB2C72?wid=950" alt="" className="image-container"/>
+                    <h1 className="img-text">Scarves</h1>
+                    <img src="https://assets.burberry.com/is/image/Burberryltd/52C8C463-5777-40BC-81CC-1D666D46D288?wid=950" alt="" className="image-container"/>
                    </a>
                 </div>
             </div>

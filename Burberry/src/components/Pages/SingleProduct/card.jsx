@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './card.css'; // Import CSS for styling
 
-const Card = ({ image, carouselImages, title, desc, price }) => {
+const Card = ({ imageUrl, carouselImages, title, desc, price }) => {
     const [showCarousel, setShowCarousel] = useState(false);
 
     return (
@@ -11,7 +11,7 @@ const Card = ({ image, carouselImages, title, desc, price }) => {
             onMouseLeave={() => setShowCarousel(false)}
         >
             <div className="product-image">
-            <img src={image} alt={title} className="card-image" />
+            <img src={imageUrl} alt={title} className="card-image" />
             
             {showCarousel && (
                 <div className="carousel-container  carousel media-carousel-labels">

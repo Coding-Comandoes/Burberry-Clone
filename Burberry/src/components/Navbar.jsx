@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import logo from '../assets/logo.svg';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faUser, faShoppingBag, faBars } from '@fortawesome/free-solid-svg-icons';
-import { useNavigate } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const[showsidebar,setshowsidebar]=useState(false);
@@ -26,8 +27,10 @@ const Navbar = () => {
   const [showBeautysubmenu, setshowBeautysubmenu] = useState(false);
   const [showsearchbar, setshowsearchbar] = useState(false);
 
-  const toggleHomepage = () =>{
-    useNavigate('./')
+  const navigate = useNavigate();
+
+  const toggleHomepage = () => {
+    navigate('/');
   };
   
 
@@ -111,15 +114,17 @@ const Navbar = () => {
 
   return (
     <>
+   
     <nav className='main-navbar'>
        {/*NAVBAR BURBERRY LOGO */}
         <div className='logo'>
-           <img src={logo} alt="burberry-logo" onClick={toggleHomepage}></img>
+          <Link to="/product"> <img src={logo} alt="burberry-logo" onClick={toggleHomepage}></img></Link>
+          
         </div>
         {/* NAVBAR MENU ITEMS*/}
         <div className="nav-menu">
             <ul>
-            <li ><a href="#" onMouseEnter={togglesubmenu}>Women</a>
+            <li ><Link to="/women" onMouseEnter={togglesubmenu}>Women</Link>
             {showsubmenu ? (
                 <div className='dropdown-content' onMouseLeave={togglesubmenu}>
                   <div className="column">
@@ -147,7 +152,7 @@ const Navbar = () => {
                 </div>
               ) : null}
             </li>
-              <li><a href="#" onMouseEnter={togglemensubmenu} >Men</a>
+              <li><Link to="/men" onMouseEnter={togglemensubmenu} >Men</Link>
               {showmensubmenu ? (
                 <div className='dropdown-content' onMouseLeave={togglemensubmenu}>
                   <div className="column">
@@ -207,11 +212,12 @@ const Navbar = () => {
                       <li><a href="#">Personalised Gifts</a></li>
                     </ul>
                   </div>
-                </div>
+                </div> 
               ) : null}
+            
                
           </li>
-          <li><a href="#" onMouseEnter={toggleChildrensubmenu} >Children</a>
+          <li><Link to="/child" onMouseEnter={toggleChildrensubmenu} >Children</Link>
           {showChildrensubmenu ? (
                 <div className='dropdown-content' onMouseLeave={toggleChildrensubmenu}>
                   <div className="column">
@@ -653,6 +659,7 @@ const Navbar = () => {
         </div>
     </nav>
     </>
+
   );
 };
 
