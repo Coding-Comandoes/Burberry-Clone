@@ -1,0 +1,29 @@
+
+#recom{
+    font-size: 20px;
+    font-weight: 300;
+}
+#img{
+    width:600px
+}
+.product{
+    font-size: 15px;
+    font-weight: 300;
+    width:100%;
+}
+.Prod{
+    display: flex;
+    overflow-x: scroll;
+    width:100%
+}
+
+@media(max-width:600px){
+    #img{
+        width:400px
+    }
+}
+@media(max-width:400px){
+    #img{
+        width:200px
+    }
+}

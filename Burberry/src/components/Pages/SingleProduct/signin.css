@@ -1,0 +1,146 @@
+*{
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+.mainDiv{
+  margin: 0px;
+  padding: 30px 40px 30px 70px;
+  font-family:Arial, Helvetica, sans-serif !important;
+  display:flex;
+  justify-content: space-between;
+}
+.signin{
+    width: 54%;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.register-info {
+    border-left: 2px solid rgb(203, 200, 200);
+    padding: 60px;
+    width: 46%;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.signin-button {
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    width:90%;
+    height:35px;
+    font-size: 1.1em;
+  }
+  .forgot-password {
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .create-account-button {
+    background-color: transparent;
+    color: #0000ff; 
+    border: 1px solid #0000ff; 
+    margin-top: 30px;
+    width: 90%;
+    padding:7px;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+  }
+  
+  .create-account-button:hover {
+    background-color: #0000ff;
+    color: white;
+    border: 1px solid #0000ff;
+    font-size: 1.1em;
+  }
+
+  ul {
+    list-style-type:none;
+    padding:0px;
+  }
+  
+  ul li:before {
+    content: "✔";
+    margin-right: 10px;
+    color: #6b7280; 
+  }
+
+  tr, td{
+    padding-right: 150px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #phone{
+    border: none;
+    border-bottom: 1ps solid #414347;
+    font-size: 1em;
+  }
+  .checkbox{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: start;
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+  #para{
+    font: 0.9em;
+    color:#61646a;
+  }
+  .create-account {
+    background-color:#0000ff;
+    color: white; 
+    border: 1px solid #0000ff; 
+    margin-top: 30px;
+    width: 100%;
+    padding:7px;
+    font-size: 1.1em;
+    /* transition: all 0.3s ease; */
+  }
+
+#reset{
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    width:100%;
+    height:35px;
+    font-size: 1em;
+}
+.textpage{
+  padding: 10%;
+  width:50%;
+  height:80%;
+}
+.dialog-content{
+  display:flex;
+  flex-direction: row;
+}
+@media (max-width: 820px) and (max-height: 1180px) {
+  .mainDiv {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .signin {
+    width: 100%;
+    margin-bottom: 2px solid black;
+    height:25%;
+  }
+  .register-info {
+    margin-left:0;
+    padding: 0px;
+    width: 100%;
+    height: 55%;
+  }
+  .dialog-content{
+    display:flex;
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+}
+.bag{
+    display: flex !important;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+img{
+    width:200px
+}
