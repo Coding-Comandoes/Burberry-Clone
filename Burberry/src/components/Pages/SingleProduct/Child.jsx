@@ -34,6 +34,9 @@ const ReadMoreLess = () => {
 const Child = () => {
     return (
         <div className="size">
+            <br />
+            <br />
+            <br />
             <div className="container">
                 <h2 >Childrenswear</h2>
                 <div><ReadMoreLess/></div>
