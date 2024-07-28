@@ -1,33 +1,48 @@
-import { useState,useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Men from './Componets/Men';
+import { useEffect, useState } from 'react'
+import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom'
+import Product from './components/Pages/SingleProduct/Product'
+import Login from './Componets/Login'
+import Men from './components/Pages/SingleProduct/Men'
 
+
+
+function NavigationButtons() {
+  const navigate = useNavigate();  // Call useNavigate here
+
+  return (
+      <div>
+          <button onClick={() => navigate('/')}>Home</button>
+          <button onClick={() => navigate('/addProduct')}>AddProduct</button>
+          <button onClick={() => navigate('/login')}>Login</button>
+      </div>
+  );
+}
 function App() {
-  const [men, setMen] = useState([]);
-    useEffect(() => {
-        async function fetchData() {
-            let response = await fetch("http://localhost:3000/men");
-            let  menData = await response.json();
-            setMen(menData);
-        }
+  const [ecom,setEcom] = useState([]);
 
-        fetchData();
-    }, []);
 
+async function fetchData(){
+  let res = await fetch("http://localhost:3000/data")
+  let data = await res.json();
+  setEcom(data);
+}
+useEffect(()=>{
+  fetchData()
+},[])
+  
 
   return (
     <>
-    <div>
-    <h1>Vite + React</h1>
-    <Router>
+   
+    <NavigationButtons /> 
     <Routes>
-        <Route path='/' element={<Men menData={men}/>} />
-        
-              
-      </Routes>
-      </Router>
-
-    </div>
+      <Route path='/' element={<Product data={ecom}/>} />
+        <Route path='/addProduct' element={<Men/>} />
+        <Route path='/Login' element={<Login/>} />  
+        </Routes>
+  
+    
+      
       
     </>
   )

@@ -1,0 +1,53 @@
+/* ReadMoreLess.css */
+.text {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.more-text {
+    display: inline; /* Display additional text inline when expanded */
+   
+}
+
+.toggle-btn {
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: grid; /* Enables grid layout */
+    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+    
+}
+.image-container {
+
+   
+    display: block;
+    align-items: center;
+    width: 100%; 
+}
+.size
+{
+    width: 100%;
+}
+.img-text{
+    position:absolute;
+    padding: 20px;
+    font-size: 300%;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+    size-adjust: relative;
+}
+
+
