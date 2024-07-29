@@ -96,14 +96,14 @@ const Footer = () => {
         </div>
 
         <div className="bottom language-shipping">
-          <Link to="/language">Language English</Link>
+          <Link to="/language" style={{paddingBottom:"13px"}}>Language English</Link>
           <Link to="/shippingtous">Shipping to United States ($)</Link>
         </div>
 
         <div className="bottom footer-statement">
           <p>
-            <Link to="/mordenslaverystatement">Modern Slavery Statement</Link><br />
-            If you are using a screen-reader and are having problems using this website, please call <a href="/no">+1 877 217 4085</a> or <a href="/contactus">contact us</a> for assistance.
+            <Link to="/mordenslaverystatement" style={{marginLeft:"-17px"}}>Modern Slavery Statement</Link><br />
+            If you are using a screen-reader and are having problems using this website, please call<a href="/no">+1 877 217 4085</a>  or<a href="/contactus">contact us</a> for assistance.
           </p>
         </div>
       </div>

@@ -2,10 +2,10 @@ import React from 'react'
 
 const Personalisation = () => {
   return (
-    <div>
+    <div style={{paddingBottom:'300px'}}>
       <div style={{position:'relative',top:'95px'}}>
         <h1 style={{display:'flex',justifyContent:'center',fontSize:'60px',fontWeight:'normal'}}>Personalisation</h1>
-        <div style={{display:'flex',justifyContent:'center',gap:'20px',marginTop:'-30px'}}>
+        <div style={{display:'flex',justifyContent:'center',gap:'20px',marginTop:'0px'}}>
           <a href='/menslatheraccessories'>Men's Leather Accessories</a>
           <a href='/scarves'>Scarves</a>
           <a href='/fragrances'>Fragrances</a>
@@ -16,7 +16,7 @@ const Personalisation = () => {
       </div>
       <div style={{position:'relative',top:'230px'}}>
         <h4 style={{display:'flex',justifyContent:'center',fontSize:'30px',fontWeight:'normal'}}>Bespoke Monogramming</h4>
-        <p style={{display:'flex',textAlign:'center',paddingLeft:'36.3%',paddingRight:'36.25%',marginTop:'-15px',marginBottom:'20px'}}>Add up to three initials in a range of colours . Complimentary on a selection of Burberry products.</p>
+        <p style={{display:'flex',textAlign:'center',paddingLeft:'36.3%',paddingRight:'36.25%',marginTop:'20px',marginBottom:'20px'}}>Add up to three initials in a range of colours . Complimentary on a selection of Burberry products.</p>
         <div style={{display:'flex',justifyContent:'center',gap:'20px'}}>
           <a href='/womenslatheraccessories'>Women's Leather Accessories</a>
           <a href='/scarves'>Scarves</a>
@@ -29,7 +29,7 @@ const Personalisation = () => {
       </div>
       <div style={{position:'relative',top:'350px'}}>
         <h1 style={{display:'flex',justifyContent:'center',fontSize:'32px',fontWeight:'normal'}}>Contact Us</h1>
-        <div style={{display:'flex',justifyContent:'center',gap:'15px',marginTop:'-5px',paddingBottom:'100px'}}>
+        <div style={{display:'flex',justifyContent:'center',gap:'15px',marginTop:'0px',paddingBottom:'100px'}}>
           <a style={{fontSize:'15px'}} href='/call'>Call</a>
           <a style={{fontSize:'15px'}} href='/whatsapp'>WhatsApp</a>
           <a style={{fontSize:'15px'}} href='/email'>Email</a>

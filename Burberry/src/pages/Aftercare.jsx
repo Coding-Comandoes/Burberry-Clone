@@ -13,7 +13,7 @@ const Aftercare = () => {
   };
 
   return (
-    <div>
+    <div style={{paddingBottom:'250px'}}>
       <div style={{ position: 'relative', top: '130px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <h2 style={{ fontSize: '60px', fontWeight: 'normal', marginBottom: '0px' }}>Aftercare & Circular Services</h2>
         <p style={{ fontSize: '15px' }}>Designed to prolong the life of Burberry products, ensuring they can be enjoyed for longer.</p>

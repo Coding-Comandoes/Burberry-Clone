@@ -2,7 +2,7 @@ import React from 'react'
 
 const Stories = () => {
   return (
-    <div>
+    <div style={{paddingBottom:'300px'}}>
       <div  style={{marginTop:'150px'}}>
         <h1>News</h1>
         <a href='/View'>View</a>

@@ -7,7 +7,7 @@ const Sustainability = () => {
         <h1 style={{fontWeight:'normal'}}>Sustainability</h1>
         <a href='/View'>View</a>
       </div>
-      <div style={{display:'flex',width:'100%',marginBottom:'-250px'}}>
+      <div style={{display:'flex',width:'100%',marginBottom:'0px'}}>
         <div style={{marginTop:'20px',width:'100%'}}>
           <img style={{width:'100%',height:'600px'}} src='https://assets.burberry.com/is/image/Burberryltd/DA2CCE81-099E-4207-BCB3-5445BAF1C733?wid=950'></img>
           <h2 style={{fontWeight:'normal',fontSize:'22px'}}>Going Beyond for Better</h2>

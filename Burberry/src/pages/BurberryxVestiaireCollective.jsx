@@ -2,7 +2,7 @@ import React from 'react';
 
 const BurberryxVestiaireCollective = () => {
   return (
-    <div>
+    <div style={{paddingBottom:'300px'}}>
       <div style={{ position: 'relative', top: '150px' }}>
         <img src='https://tse4.explicit.bing.net/th?id=OIP.fcVle0DF6rk_Hek0bN8VngHaFy&pid=Api&P=0&h=180' alt='backgroundimage' style={{ height: '800px', width: '100%' }}/>
         <p style={{ position:'sticky',bottom:'10px',paddingLeft:'20px',fontSize:'25px',color:'white'}}>Burberry x Vestiaire Collective</p>
