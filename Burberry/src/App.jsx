@@ -14,6 +14,7 @@ import Signup from './components/Pages/SingleProduct/SignUp';
 import SingleProduct from './components/Pages/SingleProduct/SingleProduct';
 import Allroutes from './components/Allroutes';
 import Bag from './components/Pages/SingleProduct/Bag';
+import Trench from './components/Pages/SingleProduct/Trench';
 
 
 function App() {
@@ -38,6 +39,7 @@ useEffect(()=>{
    </header>
     <div>
     <Routes>
+      <Route path="/" element={<Home/>}/>
       <Route path="/home" element={<Home/>} />
       <Route path="/men" element={<Men/>} />
       <Route path="/women" element={<Women/>} />
@@ -46,6 +48,7 @@ useEffect(()=>{
       <Route path="/signin" element={<SignIn/>}/>
       <Route path="/singleProduct/:id" element={<SingleProduct />} />
       <Route path="/cart" element={<Bag/>}/>
+      <Route path="/trench" element={<Trench/>}/>
 
 
         {/*<Route path='/Login' element={<Login/>} />  */}

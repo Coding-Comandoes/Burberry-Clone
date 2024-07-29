@@ -44,13 +44,13 @@ const Men = () => {
         <div className="size">
             <br />
             
-            <div className="container top" >
+            <div className="container" >
                 <h2 >Menswear</h2>
                 <div className="text"><ReadMoreLess/></div>
 
             </div>
             <br />
-            <div className="gallery-container " >
+            <div >
                 <Link to="/product">
                     <h1 className="img-text">Burberry Classics</h1>
                     <img src="https://assets.burberry.com/is/image/Burberryltd/7B73716A-B7FF-40BF-8098-56B5A5FD5F44?wid=1920" className="image-container" />

@@ -52,9 +52,9 @@ const Women = () => {
 
             </div>
             <br />
-            <div className="gallery-container " >
+            <div  >
                
-                    <Link to="/product"><h1 className="img-text">Burberry Classics</h1>
+                    <Link to="/product"><h1 className="img-text-1">Burberry Classics</h1>
                     <img src="https://assets.burberry.com/is/image/Burberryltd/D05993A8-6506-4D49-9C59-7273E35E69D5?wid=1920" className="image-container"/>   
                     </Link>
             </div>
