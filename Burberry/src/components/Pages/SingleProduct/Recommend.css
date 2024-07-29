@@ -18,6 +18,9 @@
     overflow-x: scroll;
     width:100%
 }
+.productdata p{
+    margin-left: 20px;
+}
 
 @media(max-width:600px){
     #imge{

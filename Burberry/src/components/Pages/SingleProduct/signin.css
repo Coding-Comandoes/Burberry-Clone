@@ -7,7 +7,6 @@
   display:flex !important;
   justify-content: space-between;
   height: auto;
-  flex-direction: column;
 }
 .signin{
     width: 45%;
