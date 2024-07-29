@@ -24,13 +24,8 @@ const Product = () => {
         
         >
            
-            {data.map( (el)  => (
-<<<<<<< HEAD
-                
-                <Card  imageUrl={el.imageUrl} carouselImages={el.carouselImages} title={el.title} id={el.id} />
-=======
+            {data.map( (el)  => (       
                 <Card  imageUrl1={el.img[0].image} imageUrl2={el.img[1].image}  title={el.title} id={el.id} />
->>>>>>> d65729c4d64f714be9b8ffc18493ad8e59383e22
                 
             ))}
         </div>
