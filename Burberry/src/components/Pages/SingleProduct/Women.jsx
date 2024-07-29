@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from 'react-router-dom';
+import List from "./List";
 import './Men.css' ;
 
 
@@ -90,6 +91,12 @@ const Women = () => {
                     <img src="https://assets.burberry.com/is/image/Burberryltd/52C8C463-5777-40BC-81CC-1D666D46D288?wid=950" alt="" className="image-container"/>
                    </Link>
                 </div>
+            </div>
+            <div>
+                <br />
+                <br />
+                <h1>New In</h1>
+                <List/>
             </div>
 
         </div>    

@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from 'react-router-dom';
+import List from "./List";
 import './Men.css' ;
 
 const ReadMoreLess = () => {
@@ -83,6 +84,12 @@ const Child = () => {
                         <img src="https://assets.burberry.com/is/image/Burberryltd/DB21BE29-86F6-432D-A530-ED21EDE10BF1?wid=950" alt="" />
                     </Link>
                 </div>
+            </div>
+            <div>
+                <br />
+                <br />
+                <h1>New In</h1>
+                <List/>
             </div>
 
         </div>    

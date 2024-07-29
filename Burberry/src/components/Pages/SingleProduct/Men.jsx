@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import List from "./List";
 import './Men.css' ;
 import { Link } from 'react-router-dom';
 
@@ -12,7 +13,7 @@ const ReadMoreLess = () => {
     };
 
     return (
-        <div >
+        <div className="para" >
             <p className="text">
             The Burberry menswear collection offers a diverse range of styles for every season, including signature pieces like car coats and matching sets in Check patterns.
             <br />
@@ -43,7 +44,7 @@ const Men = () => {
         <div className="size">
             <br />
             
-            <div className="container" >
+            <div className="container top" >
                 <h2 >Menswear</h2>
                 <div className="text"><ReadMoreLess/></div>
 
@@ -88,6 +89,12 @@ const Men = () => {
                     <img src="https://assets.burberry.com/is/image/Burberryltd/21CD90B1-25F8-44A7-AA82-3A6E6FCB2C72?wid=950" alt="" className="image-container"/>
                     </Link>
                 </div>
+            </div>
+            <div>
+                <br />
+                <br />
+                <h1>New In</h1>
+                <List/>
             </div>
 
         </div>    
