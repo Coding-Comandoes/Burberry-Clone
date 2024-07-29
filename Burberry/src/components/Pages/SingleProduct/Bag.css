@@ -22,14 +22,14 @@ body{
     background-color: rgb(231, 238, 238);
     height:350px;
 }
-.mainDiv{
+.mainDivCart{
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5%;
     margin-top: 10%;
 }
-.mainDiv .bag{
+.mainDivCart .bag{
     display: flex ;
     justify-content: start;
     flex-wrap: wrap ;
@@ -44,7 +44,7 @@ body{
 .bag img{
     height:250px;
 }
-.mainDiv .detail{
+.mainDivCart .detail{
     width:65%;
     margin-top:7%;
     margin-left:3%;

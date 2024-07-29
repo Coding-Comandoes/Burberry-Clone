@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import "./Bag.css"
 import { useNavigate } from 'react-router-dom';
-const Bag = ()=>{
+const Bag=()=>{
     const [cart, setCart] = useState([]);
 
     async function getData(){
@@ -29,7 +29,7 @@ const Bag = ()=>{
     return(
         <>
         <button className='back' onClick={back}>←</button>
-        <div className="mainDiv">
+        <div className="mainDivCart">
             {cart.length===0?
             <div>
                 <p id='empty'>YOUR SHOPPING BAG IS EMPTY</p>
