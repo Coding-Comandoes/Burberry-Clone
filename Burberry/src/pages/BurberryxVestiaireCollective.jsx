@@ -8,10 +8,10 @@ const BurberryxVestiaireCollective = () => {
         <p style={{ position:'sticky',bottom:'10px',paddingLeft:'20px',fontSize:'25px',color:'white'}}>Burberry x Vestiaire Collective</p>
       </div>
       <div style={{position:'relative',top:'110px',display:'flex',textAlign:'center'}}>
-        <h1 style={{fontSize:'55px',paddingLeft:'15%',paddingRight:'15%',fontWeight:'normal'}}>Resell your Burberry pieces through our partnership with Vestiaire Collective.</h1>
+        <h1 style={{fontSize:'55px',paddingLeft:'15%',paddingRight:'15%',fontWeight:'normal',marginTop:'25px'}}>Resell your Burberry pieces through our partnership with Vestiaire Collective.</h1>
       </div>
       <div style={{position:'relative',top:'100px',display:'flex',justifyContent:'center'}}>
-      <a style={{fontSize:'15px'}} href='/readmore'>Read More</a>
+      <a style={{fontSize:'20px',marginTop:'20px',border:'2px solid black',padding:'5px'}} href='/readmore'>Read More</a>
       </div>
       <div style={{position:'relative',top:'200px'}}>
         <img style={{height:'800px',width:'100%'}} src='https://tse3.mm.bing.net/th?id=OIP.NNxaVHLnc3LJ2A6mX4ypjwHaNR&pid=Api&P=0&h=180' alt='backgroundimage'></img>

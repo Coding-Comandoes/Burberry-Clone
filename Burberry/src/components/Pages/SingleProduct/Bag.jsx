@@ -1,6 +1,10 @@
 import React,{useEffect,useState} from 'react'
 import "./Bag.css"
 import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+
+
 const Bag=()=>{
     const [cart, setCart] = useState([]);
 
@@ -15,7 +19,7 @@ const Bag=()=>{
     }
     async function deleteData(id) {
         let res = await fetch(`http://localhost:3000/cart/${id}`,{
-           method: "DELETE"
+           method:"DELETE"
         });
     }
     const navigate=useNavigate()
@@ -26,9 +30,12 @@ const Bag=()=>{
     useEffect(()=>{
         getData()},[cart]
     )
+    function Single(id){
+        navigate(`/singleProduct/${id}`)
+    }
     return(
         <>
-        <button className='back' onClick={back}>←</button>
+        <button className='back' onClick={back}><FontAwesomeIcon icon={faArrowLeft} id="leftArrow" /></button>
         <div className="mainDivCart">
             {cart.length===0?
             <div>
@@ -36,22 +43,26 @@ const Bag=()=>{
             </div>
             :(
             <>
+                <div className='MYBag'>
+                    <h4>Your Bag</h4>
+                    <p>Free delivery & returns on your order</p>
+                </div>
                 {cart.map((el)=>(
                     <div className='prodCart'>
                         <div className='cart'>
                             <div style={{height:"1px",backgroundColor:"gray",width:'65%'}}></div>
                             <div className="bag">
-                            <img src={el.img[0].image}></img>
+                            <img src={el.img[0].image}  onClick={()=>Single(el.id)}></img>
                             <div className='detail'>
-                            <p id='title'>{el.title}</p>
-                            <p className='item'>Item:{el.id}</p>
-                            <p className='item'>{el.color}</p>
-                            <div className=' size'>
-                                <p>Size:{el.fit}</p>
-                                <p>Qty:1</p>
-                            </div>
-                            <button className='remove' onClick={()=>deleteData(el.id)}>Remove</button>
-                            <p id='price'>USD {el.price}</p>
+                                <p id='title'>{el.title}</p>
+                                <p className='item'>Item:{el.id}</p>
+                                <p className='item'>{el.color}</p>
+                                <div className=' size'>
+                                    <p>Size:{el.fit}</p>
+                                    <p>Qty:1</p>
+                                </div>
+                                <button id='remove' onClick={()=>deleteData(el.id)}>Remove</button>
+                                <p id='price'>USD {el.price}</p>
                             </div>
                             </div>
                             <div style={{height:"1px",backgroundColor:"gray",width:'65%',marginTop:"30px"}}></div>

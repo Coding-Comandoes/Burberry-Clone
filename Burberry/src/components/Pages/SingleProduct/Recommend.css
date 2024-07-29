@@ -1,29 +1,34 @@
 
-#recom{
-    font-size: 20px;
+#recommend{
+    font-size: 30px;
     font-weight: 300;
+    padding-top:10px;
+    padding-bottom:10px;
 }
-#img{
+#imge{
     width:600px
 }
-.product{
+.productdata{
     font-size: 15px;
     font-weight: 300;
     width:100%;
 }
-.Prod{
+.Prods{
     display: flex;
     overflow-x: scroll;
     width:100%
 }
+.productdata p{
+    margin-left: 20px;
+}
 
 @media(max-width:600px){
-    #img{
+    #imge{
         width:400px
     }
 }
 @media(max-width:400px){
-    #img{
+    #imge{
         width:200px
     }
 }

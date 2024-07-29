@@ -304,6 +304,7 @@ const SignIn =() => {
       {content ? (
        <div>
       <h3>New to Burberry?</h3>
+      <br/>
       <p>
         Creating an account is easy. By registering, you will be able to:
         <ul>

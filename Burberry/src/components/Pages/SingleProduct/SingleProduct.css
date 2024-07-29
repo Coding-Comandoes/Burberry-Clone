@@ -6,22 +6,25 @@
 .Vertical {
     width: 65%;
     margin-top: 0;
-    height:900px;
+    height:850px;
     overflow-y: scroll;
     display:flex;
     flex-direction: column;
 }
 .Vertical #image{
-    width:100%
+    width:850px
 }
 
 .prodDiv{
     width:35%;
     margin-left: 1%;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top:5%;
+    margin-top:8%;
 }
+#new{
+    margin-bottom: 10%;
 
+}
 #new,.p{
     color: rgb(148, 152, 156);
 }
@@ -67,7 +70,7 @@
 /*Modal style*/
 .Modal,.ModalContent{
     height:600px;
-    margin:0% 30% 0% 30%;
+    margin:5% 30% 0% 30%;
     overflow-y: scroll;
     padding: 3%;
     background-color:white;
@@ -104,6 +107,7 @@
 
 .more{
     text-decoration: underline;
+    color:gray;
 }
 .more:hover{
     color: blue;
@@ -185,10 +189,14 @@ h4{
     height: 20px;
 }
 .shipping{
-    margin-top: -30px;
+    margin-top: 20px;
+}
+.shipping h4{
+    margin-top:20px;
 }
 .shipping .more{
     text-decoration: underline;
+    margin-top:20px !important;
 }
 
 /*Gift packaging*/
@@ -197,8 +205,13 @@ h4{
     overflow-y: scroll;
     margin-top:-60px;
 }
+.exit{
+    padding-bottom:15px;
+}
 .pack h4{
     font-size:20px;
+    padding:5px;
+    height:35px;
 }
 .pack img{
     width:100%;
@@ -210,6 +223,7 @@ h4{
 }
 .contacts h4{
     font-size: 20px;
+    height:35px;
 }
 .num{
     text-decoration: underline;
@@ -253,10 +267,36 @@ h4{
     }
     .Modal,.ModalContent{
         padding:10px;
-        margin:0;
+        margin-top:12%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height:450px;
+    }
+}
+@media(max-width:800px){
+    .Modal,.ModalContent{
+        height:500px;
+    }
+}
+@media(max-width:600px){
+    .Modal,.ModalContent{
+        height:530px;
+        margin-top:20%;
+    }
+    .Detail{
+        margin-top: 10%;
+    }
+    .Vertical{
+        margin-top: 10%;
     }
 }
 @media(max-width:370px){
+    .Detail{
+        margin-top: 20%;
+    }
+    .Vertical{
+        margin-top: 20%;
+    }
     .Verticalcar img{
         height:300px;
         overflow-x: hidden;

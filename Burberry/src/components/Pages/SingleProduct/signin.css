@@ -7,10 +7,9 @@
   display:flex !important;
   justify-content: space-between;
   height: auto;
-  flex-direction: column;
 }
 .signin{
-    width: 40%;
+    width: 45%;
     height: auto;
     font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -18,7 +17,7 @@
 .register-info {
     border-left: 2px solid rgb(203, 200, 200);
     padding: 60px;
-    width: 40%;
+    width: 55%;
     height: auto;
     font-family: Arial, Helvetica, sans-serif !important;
 }

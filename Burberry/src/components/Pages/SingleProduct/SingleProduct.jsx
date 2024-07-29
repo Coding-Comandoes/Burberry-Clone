@@ -4,6 +4,8 @@ import { useState,useEffect } from 'react'
 import Recommend from './Recommend'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { Link, useNavigate } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import {
   useDisclosure,
   Modal,
@@ -169,12 +171,12 @@ const renderDefaultView = () => (
                 <p>We've partnered with 4gift to offer a complimentary premium gifting service in the US.</p>
                 <Slider {...settings} className='Slider'>
                   <div>
-                    <img src='https://assets.burberry.com/is/image/Burberryltd/7E11BED5-9A6F-4F7C-BF9F-B102158A148C?$BBY_V3_SL_1$&wid=400&hei=400'></img>
+                    <img src='https://assets.burberry.com/is/image/Burberryltd/7E11BED5-9A6F-4F7C-BF9F-B102158A148C?$BBY_V3_SL_1$&wid=400&hei=400' alt='gift demo'></img>
                     <h6 className='gifter'>THE GIFTER</h6>
                     <p className='gifter'>Split the cost with others or send it on your own. You can send your gift instantly or pick a later delivery date.</p>
                 </div>
                 <div>
-                  <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTRtXjJACcmC9AW8_vzvSnDRHspqJp4tKQikwjItdGlb_ydFOsoantVsk40HSlyUIKzRM&usqp=CAU' style={{marginTop:'20%'}}></img>
+                  <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTRtXjJACcmC9AW8_vzvSnDRHspqJp4tKQikwjItdGlb_ydFOsoantVsk40HSlyUIKzRM&usqp=CAU' alt='gift demo' style={{marginTop:'20%'}}></img>
                   <h6 className='gifter'>THE GIFT RECIPIENT</h6>
                   <p className='gifter'>They can choose the size or colour according to their preference or exchange it for a different gift.</p>
                 </div>
@@ -206,7 +208,7 @@ const renderDefaultView = () => (
           <button className='data' onClick={() => fabrics(el.fabric)}><p>Fabric & Care</p><p>{fabric===el.fabric?'-':'+'}</p></button>
           <p className='det'>{fabric}</p>
           
-          <a className='contact' style={{marginTop:"50px"}}>Book An Appointment</a>
+          <Link to='/appointment-booking' className='contact' style={{marginTop:"50px"}}>Book An Appointment</Link>
           <a className='contact' onClick={()=>changeView('contact')}>Contact Us</a>
 
           </div>
@@ -262,11 +264,11 @@ const renderDefaultView = () => (
         <p>Our packaging options below are complimentary and plastic-free.</p>
         <h4>Gift Packaging</h4>
         <p>Our paper-based gift packaging includes gift boxes, tissues and gift notes made from a minimum of 50% recycled materials, 100% recyclable and Forest Stewardship Council (FSC) certified. Rainwear and tailoring are packaged in a reusable garment cover containing a minimum of 60% recycled cotton with an FSC-certified wooden hanger. Leather goods are packaged in dust bags made from a minimum of 60% recycled cotton.</p>
-        <img src='https://assets.burberry.com/is/image/Burberryltd/7E11BED5-9A6F-4F7C-BF9F-B102158A148C?$BBY_V3_SL_1$&wid=400&hei=400'></img>
+        <img src='https://assets.burberry.com/is/image/Burberryltd/7E11BED5-9A6F-4F7C-BF9F-B102158A148C?$BBY_V3_SL_1$&wid=400&hei=400' alt='Signature Packaging'></img>
         <p>Signature Packaging</p>
         <h4>Essential Packaging</h4>
         <p>Our paper-based packaging is 100% recyclable, Forest Stewardship Council (FSC) certified and made from a minimum of 45% recycled materials. Clothing is packaged in FSC-certified pouches made from a minimum of 50% post-consumer recycled paper. Rainwear and tailoring are packaged in a reusable garment cover containing a minimum of 60% recycled cotton with an FSC-certified wooden hanger. Puffer, quilted and down coats and jackets are packaged in a reusable tote bag made from 100% recycled cotton. Leather goods are packaged in dust bags made from a minimum of 60% recycled cotton.</p>
-        <img src='https://assets.burberry.com/is/image/Burberryltd/276B6D94-129F-4BDC-A5EB-957AB4FE21F6?$BBY_V3_SL_1$&wid=400&hei=400'></img>
+        <img src='https://assets.burberry.com/is/image/Burberryltd/276B6D94-129F-4BDC-A5EB-957AB4FE21F6?$BBY_V3_SL_1$&wid=400&hei=400' alt='Complimentary Tote'></img>
         <p>Complimentary Tote</p>
       </div>
     </div>
@@ -303,6 +305,11 @@ const renderDefaultView = () => (
         return renderDefaultView();
     }
   };
+  const navigate=useNavigate()
+  function Zoom(url){
+    const encodedUrl = encodeURIComponent(url);
+    navigate(`/zoomed/${encodedUrl}`)
+  }
 
   return (
     <>
@@ -310,12 +317,12 @@ const renderDefaultView = () => (
       {isSmallScreen ?(
       <Slider {...settingsVertical} className='Verticalcar'>
         {images.map(d=>(
-          <img src={d.image} id="image" ></img>
+          <img src={d.image} id="image" alt='Product image'  onClick={()=>Zoom(d.image)}></img>
         ))}
       </Slider>) :(
       <div className='Vertical'>
         {images.map(d=>(
-          <img src={d.image} id="image" ></img>
+          <img src={d.image} id="image" alt='Product image' onClick={()=>Zoom(d.image)}></img>
         ))}
         </div>
       )

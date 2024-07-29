@@ -22,7 +22,7 @@ const TrenchBespoke = () => {
           style={{ height: '800px', width: '100%', marginBottom: '-510px' }}
         ></img>
         <div style={{ display: 'grid', justifyContent: 'center', position: 'relative', bottom: '-340px', color: 'white' }}>
-          <h1 style={{ display: 'flex', justifyContent: 'center', marginBottom: '-10px', fontSize: '3.55em', fontWeight: 'normal' }}>Tench Bespoke</h1>
+          <h1 style={{ display: 'flex', justifyContent: 'center', marginBottom: '-10px', fontSize: '3.55em', fontWeight: 'normal' }}>Tench Bespoke</h1><br/>
           <h2 style={{ display: 'flex', justifyContent: 'center', fontSize: '23px', fontWeight: 'normal',paddingTop: '10px' }}>The personalisation experience.</h2>
         </div>
       </div>
@@ -42,7 +42,7 @@ const TrenchBespoke = () => {
         </div>
       </div>
       <div style={{ position: 'relative', top: '330px', display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '70px' }}>
-        <h2 style={{ fontSize: '35px', fontWeight: 'normal', marginBottom: '0px' }}>Personalised Design</h2>
+        <h2 style={{ fontSize: '35px', fontWeight: 'normal', marginBottom: '0px' }}>Personalised Design</h2><br/>
         <p style={{ fontSize: '15px' }}>From bespoke gabardine to embroidery and more, our Trench Bespoke service allows you to create something unique.</p>
         <a style={{ fontSize: '15px', paddingTop: '16px' }} href='/ContanctUs'> Contact Us</a>
       </div>
@@ -54,12 +54,12 @@ const TrenchBespoke = () => {
           <img style={{"height":"475px",width:'25%'}} src='https://tse3.mm.bing.net/th?id=OIP.5HboR6yZXPsy_rlKN0H4lQHaH_&pid=Api&P=0&h=180' alt="Lining"></img>
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px' }}>
-          <div style={{  paddingRight: '20px'}}>
-            <h2 style={{fontWeight:'normal'}}>Fabric</h2>
+          <div style={{  paddingRight: '20px',paddingLeft:'10px'}}>
+            <h2 style={{fontWeight:'normal'}}>Fabric</h2><br/>
             <p style={{fontSize:'14.5px'}}>Our revolutionary gabardine was invented by Thomas Burberry in 1879. Today, you can craft your trench coat in three bespoke gabardine shades - iconic honey, timeless black, and coal blue.</p>
           </div>
           <div style={{  paddingLeft: '20px' }}>
-            <h2 style={{fontWeight:'normal'}}>Lining</h2>
+            <h2 style={{fontWeight:'normal'}}>Lining</h2><br/>
             <p style={{fontSize:'14.5px'}}>Choose to line your trench coat in our signature Burberry Check, a jacquard-woven Equestrian Knight Design, or a bold Burberry Label-print silk twill - each available in a selection of shades.</p>
           </div>
         </div>
@@ -72,12 +72,12 @@ const TrenchBespoke = () => {
           <img style={{"height":"475px","width":'25%'}}  src='https://tse4.mm.bing.net/th?id=OIP.lPTG_VglzaBa-sDrQSIx-QHaLH&pid=Api&P=0&h=180' alt="embroidery"></img>
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px' }}>
-          <div style={{ flex: 1, paddingRight: '20px' }}>
-            <h2 style={{fontWeight:'normal'}}>Button</h2>
+          <div style={{ flex: 1, paddingRight: '20px',paddingLeft:'10px'}}>
+            <h2 style={{fontWeight:'normal'}}>Button</h2><br/>
             <p style={{fontSize:'14.5px'}}>It's all in the details.Add buttons made from buffalo horn,Thomas Burberry Monogram-embossed enamel or metallic variations accented with the Equestrian Knight Design.</p>
           </div>
           <div style={{ flex: 1, paddingLeft: '20px' }}>
-            <h2 style={{fontWeight:'normal'}}>Embroidery</h2>
+            <h2 style={{fontWeight:'normal'}}>Embroidery</h2><br/>
             <p style={{fontSize:'14.5px'}}>From monogrammed initials and iconic Burberry emblems to applique patches,bring a unique sense of style to your trench with our embriodery options.</p>
           </div>
         </div>
@@ -88,18 +88,18 @@ const TrenchBespoke = () => {
           style={{ height: '800px', width: '100%', marginBottom: '-560px' }}></img>      
       </div>
       <div style={{ position: 'relative', top: '330px', display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '70px' }}>
-        <h2 style={{ fontSize: '35px', fontWeight: 'normal', marginBottom: '0px' }}>Choose Your Style</h2>
+        <h2 style={{ fontSize: '35px', fontWeight: 'normal', marginBottom: '0px' }}>Choose Your Style</h2><br/>
         <p style={{ fontSize: '15px' ,width:'1120px',textAlign:'center'}}>Across womenswear and menswear, there are five of our iconic styles to choose from. You can also tailor the sleeve and back length to ensure your trench is the perfect fit.</p>
       </div>
       <div>
         <div style={{position:'relative',display:'flex',flexDirection:'column',alignItems:'center',top:'450px'}}>
-          <h2 style={{fontSize:'30px',fontWeight:'normal'}}>Find a Store</h2>
+          <h2 style={{fontSize:'30px',fontWeight:'normal'}}>Find a Store</h2><br/>
           <p style={{fontSize:'15px'}}>Trench Bespoke is available at the selected stores below.</p>
           <a style={{fontSize:'15px'}} href='/ContactUs'>Contact Us</a>
         </div>
       </div>
       <div style={{position:'relative',top:'550px',paddingBottom:'550px',display:'flex',gap:'40px'}}>
-        <img style={{height:'500px'}} src='https://assets.burberry.com/is/image/Burberryltd/D757FF09-A06B-4691-A7EB-01527578EFCA?wid=1366'></img>
+        <img style={{height:'500px',width:'78%'}} src='https://assets.burberry.com/is/image/Burberryltd/D757FF09-A06B-4691-A7EB-01527578EFCA?wid=1366'></img>
         <div style={{display:'grid',alignItems:'center',paddingTop:'60px',paddingBottom:'65px',textAlign:'center'}}> 
           <p style={{fontSize:'15px'}}>121 Regent Street,London</p>
           <a style={{'fontSize':'15px',textDecoration:'none'}} href='/Store Locator'>Store Locator</a>
