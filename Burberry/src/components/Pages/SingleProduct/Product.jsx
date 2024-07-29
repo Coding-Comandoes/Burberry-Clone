@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card from "./card";
 import './Product.css'; // Import the CSS for layout
-import SingleProduct from "./SingleProduct";
 
 
 

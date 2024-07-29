@@ -324,7 +324,7 @@ const renderDefaultView = () => (
       {renderView()}
       </div>
     <div className='reco'>
-      <Recommend/>
+      <Recommend id={id}/>
     </div>
     </>
   );

@@ -1,8 +1,8 @@
 import React, { useState,useEffect } from 'react'
 import "./Recommend.css"
-import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
-const Recommend = () => {
+const Recommend = ({id}) => {
     const navigate = useNavigate();
     const [var1,setVar1]=useState(null)
  
@@ -18,7 +18,13 @@ const [detail,setDetail]=useState([]);
         },
     })
     let data=await res.json();
-    setDetail(data);
+    data=data.filter(el=>el.id!=id)
+    let reco=[]
+    let i=0;
+    for(i=0;i<5;i++){
+      reco.push(data[i])
+    }
+    setDetail(reco);
 
 }
 useEffect(()=>{
