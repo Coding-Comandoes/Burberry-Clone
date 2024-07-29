@@ -14,12 +14,9 @@ import SignUp from './components/Pages/SingleProduct/SignUp';
 import SingleProduct from './components/Pages/SingleProduct/SingleProduct';
 import Allroutes from './components/Allroutes';
 import Bag from './components/Pages/SingleProduct/Bag';
-<<<<<<< HEAD
 import Trench from './components/Pages/SingleProduct/Trench';
-
-=======
 import Zoomed from './components/Pages/SingleProduct/Zoomed';
->>>>>>> 1dc8ba62a01ca5ba6283109c747a56d01e1742be
+
 
 function App() {
   const [ecom,setEcom] = useState([]);
@@ -43,11 +40,9 @@ useEffect(()=>{
    </header>
     <div>
     <Routes>
-<<<<<<< HEAD
+
       <Route path="/" element={<Home/>}/>
-=======
       <Route path='/' element={<Home/>}/>
->>>>>>> 1dc8ba62a01ca5ba6283109c747a56d01e1742be
       <Route path="/home" element={<Home/>} />
       <Route path="/men" element={<Men/>} />
       <Route path="/women" element={<Women/>} />
@@ -56,11 +51,8 @@ useEffect(()=>{
       <Route path="/signin" element={<SignIn/>}/>
       <Route path="/singleProduct/:id" element={<SingleProduct />} />
       <Route path="/cart" element={<Bag/>}/>
-<<<<<<< HEAD
       <Route path="/trench" element={<Trench/>}/>
-=======
       <Route path="/zoomed/:url" element={<Zoomed/>} />
->>>>>>> 1dc8ba62a01ca5ba6283109c747a56d01e1742be
 
 
         {/*<Route path='/Login' element={<Login/>} />  */}
