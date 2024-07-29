@@ -107,6 +107,7 @@
 
 .more{
     text-decoration: underline;
+    color:gray;
 }
 .more:hover{
     color: blue;
