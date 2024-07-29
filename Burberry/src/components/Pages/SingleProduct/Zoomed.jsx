@@ -13,7 +13,7 @@ const Zoomed = () => {
     
   return (
     <div>
-      <img src={decodedUrl} style={{width:'100%'}} onClick={back}></img>
+      <img src={decodedUrl} alt='Zoomed product' style={{width:'100%'}} onClick={back}></img>
     </div>
   )
 }
