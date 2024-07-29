@@ -22,7 +22,8 @@ const Product = () => {
         
         <div className="grid-container">
             {data.map( (el)  => (
-                <Card  imageUrl={el.imageUrl}  title={el.title} id={el.id} />
+                
+                <Card  imageUrl={el.imageUrl} carouselImages={el.carouselImages} title={el.title} id={el.id} />
                 
             ))}
         </div>

@@ -43,15 +43,15 @@ const Bag=()=>{
                             <div className="bag">
                             <img src={el.img[0].image}></img>
                             <div className='detail'>
-                            <p id='title'>{el.title}</p>
-                            <p className='item'>Item:{el.id}</p>
-                            <p className='item'>{el.color}</p>
-                            <div className=' size'>
-                                <p>Size:{el.fit}</p>
-                                <p>Qty:1</p>
-                            </div>
-                            <button className='remove' onClick={()=>deleteData(el.id)}>Remove</button>
-                            <p id='price'>USD {el.price}</p>
+                                <p id='title'>{el.title}</p>
+                                <p className='item'>Item:{el.id}</p>
+                                <p className='item'>{el.color}</p>
+                                <div className=' size'>
+                                    <p>Size:{el.fit}</p>
+                                    <p>Qty:1</p>
+                                </div>
+                                <button id='remove' onClick={()=>deleteData(el.id)}>Remove</button>
+                                <p id='price'>USD {el.price}</p>
                             </div>
                             </div>
                             <div style={{height:"1px",backgroundColor:"gray",width:'65%',marginTop:"30px"}}></div>

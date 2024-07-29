@@ -4,6 +4,7 @@ import { useState,useEffect } from 'react'
 import Recommend from './Recommend'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 import {
   useDisclosure,
   Modal,
@@ -206,7 +207,7 @@ const renderDefaultView = () => (
           <button className='data' onClick={() => fabrics(el.fabric)}><p>Fabric & Care</p><p>{fabric===el.fabric?'-':'+'}</p></button>
           <p className='det'>{fabric}</p>
           
-          <a className='contact' style={{marginTop:"50px"}}>Book An Appointment</a>
+          <Link to='/appointment-booking' className='contact' style={{marginTop:"50px"}}>Book An Appointment</Link>
           <a className='contact' onClick={()=>changeView('contact')}>Contact Us</a>
 
           </div>

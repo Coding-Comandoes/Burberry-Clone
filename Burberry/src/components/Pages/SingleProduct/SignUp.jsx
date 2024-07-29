@@ -90,7 +90,6 @@ const Signup = () => {
     return (
         <div className="main">
             <h3>Sign Up</h3>
-            <br />
             <TextField
                 id="email-input"
                 label="Your email*"
@@ -101,7 +100,7 @@ const Signup = () => {
                 error={!!formErrors.email}
                 helperText={formErrors.email}
             />
-            <button onClick={dialogBox} style={{border:0}}>{<ArrowForwardIosIcon />}</button>
+            <button onClick={dialogBox} style={{border:0,marginTop:'15px'}}>{<ArrowForwardIosIcon id='arrowFor'/>}</button>
             <StyledDialog
                 maxWidth="70%"
                 maxHeight="90%"
@@ -110,7 +109,7 @@ const Signup = () => {
             >
                 <div className="dialog">
                     <div className="img">
-                        <img src="https://assets.burberry.com/is/image/Burberryltd/C06DD96F-0624-4E5E-856A-7E3CF3671B24?$BBY_V3_ML_1.275$&wid=479&hei=610" alt="Burberry Logo" width="100%" height="100%" />
+                        <img src="https://assets.burberry.com/is/image/Burberryltd/3AA831DC-11B0-40BC-BD5B-FFEA5C72FB5A?wid=1920" alt="Burberry Logo" width="100%" height="90%" />
                     </div>
                     <div className="text">
                         <DialogTitle>Sign Up</DialogTitle>
@@ -194,7 +193,7 @@ const Signup = () => {
                             <Button id="reset" onClick={submit}>Sign Up</Button>
                             </DialogActions>
                         <br />
-                        <p>Subscribe to receive email updates about Burberry products, services and events. When you subscribe, you confirm you have read Burberry's Privacy Policy. You may opt out at any time by using the unsubscribe link in the emails. Burberry uses your personal information to offer an enhanced customer service tailored to your preferences. You provide your personal information voluntarily.</p>
+                        <h6>Subscribe to receive email updates about Burberry products, services and events. When you subscribe, you confirm you have read Burberry's Privacy Policy. You may opt out at any time by using the unsubscribe link in the emails. Burberry uses your personal information to offer an enhanced customer service tailored to your preferences. You provide your personal information voluntarily.</h6>
                     </div>
                 </div>
             </StyledDialog>
@@ -207,7 +206,7 @@ const Signup = () => {
             >
                 <div className="dialog">
                     <div className="img">
-                        <img src={Image2} alt="Burberry Logo" />
+                        <img src='https://assets.burberry.com/is/image/Burberryltd/3AA831DC-11B0-40BC-BD5B-FFEA5C72FB5A?wid=1920' width="100%" height="100%" alt="Burberry Logo" />
                     </div>
                     <div className="text">
                         <DialogTitle>

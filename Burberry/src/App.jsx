@@ -10,7 +10,7 @@ import Child from './components/Pages/SingleProduct/Child';
 import Home from './components/Pages/SingleProduct/Home';
 import Footer from './components/Footer';
 import SignIn from './components/Pages/SingleProduct/SignIn';
-import Signup from './components/Pages/SingleProduct/SignUp';
+import SignUp from './components/Pages/SingleProduct/SignUp';
 import SingleProduct from './components/Pages/SingleProduct/SingleProduct';
 import Allroutes from './components/Allroutes';
 import Bag from './components/Pages/SingleProduct/Bag';
@@ -53,7 +53,10 @@ useEffect(()=>{
         </Routes>
     </div>
       <Allroutes/>
-        <footer><Footer/></footer>
+        <div>
+          <SignUp/>
+          <footer><Footer/></footer>
+        </div>
       
     </div>
       

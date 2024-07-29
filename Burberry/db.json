@@ -77,7 +77,6 @@
       "prodDetails": "A sweater made in Italy from lightweight cotton mesh. The style is cut to a relaxed fit and subtly knitted with our Equestrian Knight Design.– Rib-knit trims– Relaxed fit: a looser cut than our regular fit. Consider taking a size down.– Item 80898301",
       "size": "– Length: 68cm/26/8in (size UK M)– Model’s height: 190cm/6ft 3in. Model wears size UK M",
       "fabric": "– 100% cotton– Trim: 89% cotton, 10% polyamide, 1% elastane– Specialist dry clean– Made in Italy",
-      
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/F1994007-4642-4716-81A2-E793B9E31E61?$BBY_V3_SL_1$&wid=1050&hei=1050"
@@ -96,15 +95,13 @@
         }
       ]
     },
-   
     {
       "id": "5",
-      "imageUrl":"https://assets.burberry.com/is/image/Burberryltd/158B0C18-34D7-4D36-8BEC-EC42D3C666A0?$BBY_V3_SL_1$&wid=1250&hei=1250" ,
+      "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/158B0C18-34D7-4D36-8BEC-EC42D3C666A0?$BBY_V3_SL_1$&wid=1250&hei=1250",
       "carouselImages": [
         "https://assets.burberry.com/is/image/Burberryltd/68CBBA42-FA68-47C4-8C6F-87002E0B2600?$BBY_V3_ML_1$&wid=1250&hei=1250",
         "https://assets.burberry.com/is/image/Burberryltd/E98CE66D-368E-4C64-A92C-EDE668C57D4B?$BBY_V3_ML_1$&wid=1250&hei=1250",
         "https://assets.burberry.com/is/image/Burberryltd/58328B40-F68F-4706-A17C-A387EC2C3BC8?$BBY_V3_SL_1$&wid=1250&hei=1250"
-        
       ],
       "title": "Gabardine Trench Jacket",
       "price": "$76.00",
@@ -117,7 +114,7 @@
           "image": "https://assets.burberry.com/is/image/Burberryltd/158B0C18-34D7-4D36-8BEC-EC42D3C666A0?$BBY_V3_SL_1$&wid=1250&hei=1250"
         },
         {
-          "image":"https://assets.burberry.com/is/image/Burberryltd/68CBBA42-FA68-47C4-8C6F-87002E0B2600?$BBY_V3_ML_1$&wid=1250&hei=1250"
+          "image": "https://assets.burberry.com/is/image/Burberryltd/68CBBA42-FA68-47C4-8C6F-87002E0B2600?$BBY_V3_ML_1$&wid=1250&hei=1250"
         },
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/E98CE66D-368E-4C64-A92C-EDE668C57D4B?$BBY_V3_ML_1$&wid=1250&hei=1250"
@@ -132,25 +129,24 @@
     },
     {
       "id": "6",
-      "imageUrl":"https://assets.burberry.com/is/image/Burberryltd/59A26034-20BD-41C5-B176-6F8856C6ED0D?$BBY_V3_SL_1$&wid=1250&hei=1250" ,
+      "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/59A26034-20BD-41C5-B176-6F8856C6ED0D?$BBY_V3_SL_1$&wid=1250&hei=1250",
       "carouselImages": [
         "https://assets.burberry.com/is/image/Burberryltd/12691ADC-9EA1-42E7-963A-BB15E3A9197D?$BBY_V3_ML_1$&wid=1250&hei=1250",
         "https://assets.burberry.com/is/image/Burberryltd/C3FC43B9-3AE8-40F2-8096-625F4ED12E9A?$BBY_V3_ML_1$&wid=1250&hei=1250",
         "https://assets.burberry.com/is/image/Burberryltd/AE9FAF75-D821-409D-AE9C-8145A901A0AA?$BBY_V3_ML_1$&wid=1250&hei=1250"
-        
       ],
       "title": "Long Detachable Collar Gabardine Trench Coat",
       "price": "100.00",
       "color": "Flax",
       "prodDetails": "Inspired by our heritage styles, a trench coat made at the Burberry Mill in England from shower-resistant gabardine. The design is cut to a regular fit and features a detachable jacquard-knitted collar in Burberry Check. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Double-breasted button closure – ​Epaulettes​ – B buckle belt​ – Side welt pockets – ​Belted cuffs​ – Back vent – Burberry Check undercollar and lining – Comes with a garment bag – Regular fit. Fits true to size, take your normal size. – Item 80910661",
-      "fabric": "– Outer: 100% cotton – Collar: 82% viscose, 18% polyester – Lining: 100% cotton – Sleeve lining: 100% viscose – Buttons: buffalo horn – Specialist dry clean – Made in Yorkshire, England" ,
-      "size":"– Length: 104cm/40.9in (size UK 6) – Model’s height: 177cm/5ft 10in. Model wears size UK 6",
+      "fabric": "– Outer: 100% cotton – Collar: 82% viscose, 18% polyester – Lining: 100% cotton – Sleeve lining: 100% viscose – Buttons: buffalo horn – Specialist dry clean – Made in Yorkshire, England",
+      "size": "– Length: 104cm/40.9in (size UK 6) – Model’s height: 177cm/5ft 10in. Model wears size UK 6",
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/59A26034-20BD-41C5-B176-6F8856C6ED0D?$BBY_V3_SL_1$&wid=1250&hei=1250"
         },
         {
-          "image":"https://assets.burberry.com/is/image/Burberryltd/0E1BEDBA-AD6A-416E-8F82-F68B8DD3333F?$BBY_V3_ML_1$&wid=1250&hei=1250"
+          "image": "https://assets.burberry.com/is/image/Burberryltd/0E1BEDBA-AD6A-416E-8F82-F68B8DD3333F?$BBY_V3_ML_1$&wid=1250&hei=1250"
         },
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/12691ADC-9EA1-42E7-963A-BB15E3A9197D?$BBY_V3_ML_1$&wid=1250&hei=1250"
@@ -162,9 +158,10 @@
           "image": "https://assets.burberry.com/is/image/Burberryltd/AE9FAF75-D821-409D-AE9C-8145A901A0AA?$BBY_V3_ML_1$&wid=1250&hei=1250"
         }
       ]
-    },{
+    },
+    {
       "id": "7",
-      "imageUrl":"https://assets.burberry.com/is/image/Burberryltd/0E11476D-E8C0-4808-81B4-070BA18C2D8D?$BBY_V3_SL_1$&wid=1250&hei=1250" ,
+      "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/0E11476D-E8C0-4808-81B4-070BA18C2D8D?$BBY_V3_SL_1$&wid=1250&hei=1250",
       "carouselImages": [
         "https://assets.burberry.com/is/image/Burberryltd/BBF90779-44FE-4305-8588-EEDF7B48C470?$BBY_V3_ML_1$&wid=1250&hei=1250",
         "https://assets.burberry.com/is/image/Burberryltd/D397EBE5-730E-4EE0-AE0D-169C480BBF85?$BBY_V3_ML_1$&wid=1250&hei=1250",
@@ -174,15 +171,15 @@
       "title": "Gabardine Trench Jacket",
       "price": "84.00",
       "color": "Black",
-      "prodDetails":"Inspired by our heritage styles, a trench jacket made from Italian-woven cotton gabardine. The design features wide lapels, exaggerated epaulettes and is partially lined in Burberry Check. Cut to a regular fit with a belt to adjust the silhouette. – Double-breasted button closure – Throat latch – Epaulettes – B buckle belt – Side welt pockets – Belted cuffs – Burberry Check undercollar and lining – Comes with a garment bag – Regular fit. Fits true to size, take your normal size. – Item 80955071",
+      "prodDetails": "Inspired by our heritage styles, a trench jacket made from Italian-woven cotton gabardine. The design features wide lapels, exaggerated epaulettes and is partially lined in Burberry Check. Cut to a regular fit with a belt to adjust the silhouette. – Double-breasted button closure – Throat latch – Epaulettes – B buckle belt – Side welt pockets – Belted cuffs – Burberry Check undercollar and lining – Comes with a garment bag – Regular fit. Fits true to size, take your normal size. – Item 80955071",
       "fabric": "– Outer: 100% cotton – Lining: 100% cotton – Sleeve lining: 100% viscose – Buttons: buffalo horn – Specialist dry clean – Imported",
-      "size":"– Length: 76cm/29.9in (size UK 6) – Model’s height: 177cm/5ft 10in. Model wears size UK 6",
+      "size": "– Length: 76cm/29.9in (size UK 6) – Model’s height: 177cm/5ft 10in. Model wears size UK 6",
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/0E11476D-E8C0-4808-81B4-070BA18C2D8D?$BBY_V3_SL_1$&wid=1250&hei=1250"
         },
         {
-          "image":"https://assets.burberry.com/is/image/Burberryltd/BBF90779-44FE-4305-8588-EEDF7B48C470?$BBY_V3_ML_1$&wid=1250&hei=1250"
+          "image": "https://assets.burberry.com/is/image/Burberryltd/BBF90779-44FE-4305-8588-EEDF7B48C470?$BBY_V3_ML_1$&wid=1250&hei=1250"
         },
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/D397EBE5-730E-4EE0-AE0D-169C480BBF85?$BBY_V3_ML_1$&wid=1250&hei=1250"
@@ -195,7 +192,6 @@
         }
       ]
     },
-   
     {
       "id": "8",
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/41B4197B-CE75-4644-9F46-0FBB0C47098D?$BBY_V3_SL_1$&wid=1050&hei=1050",
@@ -263,7 +259,7 @@
       ]
     },
     {
-      "id":"10",
+      "id": "10",
       "title": "Small Check Shoulder Bag",
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/A3A5F995-1B1C-400A-93D2-25AFF1BA6D1D?$BBY_V3_SL_1$&wid=1050&hei=1050",
       "carouselImages": [
@@ -282,7 +278,7 @@
           "image": "https://assets.burberry.com/is/image/Burberryltd/A3A5F995-1B1C-400A-93D2-25AFF1BA6D1D?$BBY_V3_SL_1$&wid=1050&hei=1050"
         },
         {
-          "image":"https://assets.burberry.com/is/image/Burberryltd/C06DD96F-0624-4E5E-856A-7E3CF3671B24?$BBY_V3_ML_1$&wid=1050&hei=1050"
+          "image": "https://assets.burberry.com/is/image/Burberryltd/C06DD96F-0624-4E5E-856A-7E3CF3671B24?$BBY_V3_ML_1$&wid=1050&hei=1050"
         },
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/6AD714F6-52EB-4C0B-92BB-01DB6E25AB08?$BBY_V3_ML_1$&wid=1050&hei=1050"
@@ -296,7 +292,7 @@
       ]
     },
     {
-      "id":"11",
+      "id": "11",
       "title": "EKD Cotton T-shirt",
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/2E5BAF8E-41F1-45A9-AEFF-5A2E0EFA55AC?$BBY_V3_SL_1$&wid=1050&hei=1050",
       "carouselImages": [
@@ -315,7 +311,7 @@
           "image": "https://assets.burberry.com/is/image/Burberryltd/2E5BAF8E-41F1-45A9-AEFF-5A2E0EFA55AC?$BBY_V3_SL_1$&wid=1050&hei=1050"
         },
         {
-          "image":"https://assets.burberry.com/is/image/Burberryltd/6C028533-A948-40E5-AFD8-2283F148B217?$BBY_V3_ML_1$&wid=1050&hei=1050"
+          "image": "https://assets.burberry.com/is/image/Burberryltd/6C028533-A948-40E5-AFD8-2283F148B217?$BBY_V3_ML_1$&wid=1050&hei=1050"
         },
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/A7A0CA91-30D2-4253-970F-A2AE2E028A6C?$BBY_V3_ML_1$&wid=1050&hei=1050"
@@ -329,7 +325,7 @@
       ]
     },
     {
-      "id":"12",
+      "id": "12",
       "title": "Heritage Aviator Sunglasses",
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/7C537947-6D81-43CA-B567-BECAAE8775A9?$BBY_V3_SL_1$&wid=1050&hei=1050",
       "carouselImages": [
@@ -348,7 +344,7 @@
           "image": "https://assets.burberry.com/is/image/Burberryltd/7C537947-6D81-43CA-B567-BECAAE8775A9?$BBY_V3_SL_1$&wid=1050&hei=1050"
         },
         {
-          "image":"https://assets.burberry.com/is/image/Burberryltd/29C363B6-E2D2-4C46-921D-45B6E1321DEA?$BBY_V3_ML_1$&wid=1050&hei=1050"
+          "image": "https://assets.burberry.com/is/image/Burberryltd/29C363B6-E2D2-4C46-921D-45B6E1321DEA?$BBY_V3_ML_1$&wid=1050&hei=1050"
         },
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/F84CE9BE-E910-45EE-8E19-F22CD31D1A67?$BBY_V3_SL_1$&wid=1050&hei=1050"
@@ -362,7 +358,7 @@
       ]
     },
     {
-      "id":"13",
+      "id": "13",
       "title": "Check Drawstring Pouch​",
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/7273A073-DB54-46F6-8238-5323F8CF4E97?$BBY_V3_SL_1$&wid=1050&hei=1050",
       "carouselImages": [
@@ -381,7 +377,7 @@
           "image": "https://assets.burberry.com/is/image/Burberryltd/7273A073-DB54-46F6-8238-5323F8CF4E97?$BBY_V3_SL_1$&wid=1050&hei=1050"
         },
         {
-          "image":"https://assets.burberry.com/is/image/Burberryltd/2A802D17-D681-48A7-950E-15ACB0AAAF6C?$BBY_V3_ML_1$&wid=1050&hei=1050"
+          "image": "https://assets.burberry.com/is/image/Burberryltd/2A802D17-D681-48A7-950E-15ACB0AAAF6C?$BBY_V3_ML_1$&wid=1050&hei=1050"
         },
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/E5DDA3C3-9F3F-4EBB-9640-36312550960C?$BBY_V3_ML_1$&wid=1050&hei=1050"
@@ -395,10 +391,10 @@
       ]
     },
     {
-      "id":"14",
+      "id": "14",
       "title": "Check Cotton Blouse",
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/3A4B5537-FBFF-4D42-AA04-A3A83EA6880A?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImage": [
+      "carouselImages": [
         "https://assets.burberry.com/is/image/Burberryltd/E58BCFD8-C6BE-41DF-AD25-ED9DC6CADCBE?$BBY_V3_ML_1$&wid=1050&hei=1050",
         "https://assets.burberry.com/is/image/Burberryltd/2C657C9E-C106-4978-8AB3-C7E4E07661AB?$BBY_V3_SL_1$&wid=1050&hei=1050"
       ],
@@ -412,7 +408,7 @@
           "image": "https://assets.burberry.com/is/image/Burberryltd/3A4B5537-FBFF-4D42-AA04-A3A83EA6880A?$BBY_V3_SL_1$&wid=1050&hei=1050"
         },
         {
-          "image":"https://assets.burberry.com/is/image/Burberryltd/E58BCFD8-C6BE-41DF-AD25-ED9DC6CADCBE?$BBY_V3_ML_1$&wid=1050&hei=1050"
+          "image": "https://assets.burberry.com/is/image/Burberryltd/E58BCFD8-C6BE-41DF-AD25-ED9DC6CADCBE?$BBY_V3_ML_1$&wid=1050&hei=1050"
         },
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/2C657C9E-C106-4978-8AB3-C7E4E07661AB?$BBY_V3_SL_1$&wid=1050&hei=1050"
@@ -420,10 +416,62 @@
       ]
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": "2",
+      "title": "Wool Sweater",
+      "price": "1090.00",
+      "prodDetails": "A crew-neck sweater in lightweight wool with contrast stitching at the shoulder. Cut to a regular fit.– Rib-knit trims– Regular fit. Fits true to size, take your normal size.– Item 80775581",
+      "size": "– Length: 68cm/26.8in (size UK L)– Model’s height: 184cm/6ft. Model wears size UK L",
+      "fabric": "– 100% wool– Specialist dry clean– Made in Italy",
+      "fit": "M",
+      "img": [
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/979BE24F-AF68-45E3-A334-C070715AF341?$BBY_V3_SL_1$&wid=1050&hei=1050"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/8F78B4FC-A40F-4FBC-BCC2-6D87F0EA2384?$BBY_V3_ML_1$&wid=1050&hei=1050"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/38B12517-28E9-477B-9BEB-FBAC97998C1C?$BBY_V3_ML_1$&wid=1050&hei=1050"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/90331725-FED7-4E24-BC53-64CECF8AB256?$BBY_V3_ML_1$&wid=1050&hei=1050"
+        }
+      ],
+      "color": "Otter"
+    },
+    {
+      "id": "3",
+      "title": "Cotton Mesh Sweater",
+      "price": "1090.00",
+      "prodDetails": "A sweater made in Italy from lightweight cotton mesh. The style is cut to a relaxed fit and subtly knitted with our Equestrian Knight Design.– Rib-knit trims– Relaxed fit: a looser cut than our regular fit. Consider taking a size down.– Item 80898301",
+      "size": "– Length: 68cm/26/8in (size UK M)– Model’s height: 190cm/6ft 3in. Model wears size UK M",
+      "fabric": "– 100% cotton– Trim: 89% cotton, 10% polyamide, 1% elastane– Specialist dry clean– Made in Italy",
+      "fit": "M",
+      "img": [
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/F1994007-4642-4716-81A2-E793B9E31E61?$BBY_V3_SL_1$&wid=1050&hei=1050"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/037F8325-853C-4693-9090-F5D399205657?$BBY_V3_ML_1$&wid=1050&hei=1050"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/E5DC7BFC-C6E1-4A3C-BF37-B32154792308?$BBY_V3_ML_1$&wid=1050&hei=1050"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/62B96915-EC67-40B0-9A34-F65ACDB3AF64?$BBY_V3_ML_1$&wid=1050&hei=1050"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/E8887C48-59D0-4B07-A86F-64BD4BE3BC8B?$BBY_V3_SL_1$&wid=1050&hei=1050"
+        }
+      ],
+      "color": "Soap"
+    }
+  ],
   "user": [
     {
-      "id": 1722186999420.0159,
+      "id": "1722186999420.0159",
       "country": "India",
       "gender": "Miss",
       "firstName": "Nityashree",

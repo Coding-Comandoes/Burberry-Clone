@@ -19,9 +19,12 @@
     width:35%;
     margin-left: 1%;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top:5%;
+    margin-top:8%;
 }
+#new{
+    margin-bottom: 10%;
 
+}
 #new,.p{
     color: rgb(148, 152, 156);
 }
@@ -185,10 +188,14 @@ h4{
     height: 20px;
 }
 .shipping{
-    margin-top: -30px;
+    margin-top: 20px;
+}
+.shipping h4{
+    margin-top:20px;
 }
 .shipping .more{
     text-decoration: underline;
+    margin-top:20px !important;
 }
 
 /*Gift packaging*/
@@ -197,8 +204,13 @@ h4{
     overflow-y: scroll;
     margin-top:-60px;
 }
+.exit{
+    padding-bottom:15px;
+}
 .pack h4{
     font-size:20px;
+    padding:5px;
+    height:35px;
 }
 .pack img{
     width:100%;
@@ -210,6 +222,7 @@ h4{
 }
 .contacts h4{
     font-size: 20px;
+    height:35px;
 }
 .num{
     text-decoration: underline;
