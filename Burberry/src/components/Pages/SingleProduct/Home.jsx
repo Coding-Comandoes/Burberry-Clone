@@ -1,7 +1,7 @@
 import React from "react";
-import { useState } from "react";
 import './Men.css' ;
 import { Link } from "react-router-dom";
+import List from "./List";
 
 const Home = () => {
     return (
@@ -37,6 +37,20 @@ const Home = () => {
                         <img src="https://assets.burberry.com/is/image/Burberryltd/D39E0EF7-2A20-4C84-9DFF-76DCF585E3AB?wid=950" className="image-container" />
                         </Link>
                 </div>
+            </div>
+            <div>
+                <br />
+                <br />
+                <h5 className="text">New In</h5>
+                <List/>
+             
+            </div>
+            <div className="end">
+                <h1 className="end-text">
+                    <p>Enjoy complimentary personalisation, packaging and More
+                        <a href="/allservices"> Burberry Services</a>
+                    </p>
+                </h1>
             </div>
         </div>
     )

@@ -1,3 +1,5 @@
 header{
     padding: 20px;
 }
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

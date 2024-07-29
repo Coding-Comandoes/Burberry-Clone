@@ -2,13 +2,6 @@
   "data": [
     {
       "id": "1",
-      "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/A2DD3EEC-EC36-486A-B4CA-E57A567E9BE6?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImages": [
-        "https://assets.burberry.com/is/image/Burberryltd/3EE81A82-598F-4425-BB17-EF9239FF4F6A?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/CF87E097-FFD8-410A-85EB-4F624D645971?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/5DBA4578-D71E-4095-970D-DB333C215E3E?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/0C4F5530-6763-4D21-9641-60253415A853?$BBY_V3_SL_1$&wid=1050&hei=1050"
-      ],
       "title": "Wool Polo Shirt",
       "price": "960.00",
       "prodDetails": "A polo shirt in Italian-woven wool, cut to a regular fit.– Rib-knit collar– Regular fit. Fits true to size, take your normal size.– Item 80831821",
@@ -35,12 +28,6 @@
     },
     {
       "id": "2",
-      "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/979BE24F-AF68-45E3-A334-C070715AF341?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImages": [
-        "https://assets.burberry.com/is/image/Burberryltd/8F78B4FC-A40F-4FBC-BCC2-6D87F0EA2384?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/38B12517-28E9-477B-9BEB-FBAC97998C1C?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/90331725-FED7-4E24-BC53-64CECF8AB256?$BBY_V3_ML_1$&wid=1050&hei=1050"
-      ],
       "prodDetails": "A crew-neck sweater in lightweight wool with contrast stitching at the shoulder. Cut to a regular fit.– Rib-knit trims– Regular fit. Fits true to size, take your normal size.– Item 80775581",
       "size": "– Length: 68cm/26.8in (size UK L)– Model’s height: 184cm/6ft. Model wears size UK L",
       "fabric": "– 100% wool– Specialist dry clean– Made in Italy",
@@ -64,13 +51,6 @@
     },
     {
       "id": "3",
-      "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/F1994007-4642-4716-81A2-E793B9E31E61?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImages": [
-        "https://assets.burberry.com/is/image/Burberryltd/037F8325-853C-4693-9090-F5D399205657?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/E5DC7BFC-C6E1-4A3C-BF37-B32154792308?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/62B96915-EC67-40B0-9A34-F65ACDB3AF64?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/E8887C48-59D0-4B07-A86F-64BD4BE3BC8B?$BBY_V3_SL_1$&wid=1050&hei=1050"
-      ],
       "title": "Cotton Mesh Sweater",
       "price": "1090.00",
       "color": "Soap",
@@ -99,13 +79,6 @@
    
     {
       "id": "5",
-      "imageUrl":"https://assets.burberry.com/is/image/Burberryltd/158B0C18-34D7-4D36-8BEC-EC42D3C666A0?$BBY_V3_SL_1$&wid=1250&hei=1250" ,
-      "carouselImages": [
-        "https://assets.burberry.com/is/image/Burberryltd/68CBBA42-FA68-47C4-8C6F-87002E0B2600?$BBY_V3_ML_1$&wid=1250&hei=1250",
-        "https://assets.burberry.com/is/image/Burberryltd/E98CE66D-368E-4C64-A92C-EDE668C57D4B?$BBY_V3_ML_1$&wid=1250&hei=1250",
-        "https://assets.burberry.com/is/image/Burberryltd/58328B40-F68F-4706-A17C-A387EC2C3BC8?$BBY_V3_SL_1$&wid=1250&hei=1250"
-        
-      ],
       "title": "Gabardine Trench Jacket",
       "price": "$76.00",
       "color": "Flex",
@@ -132,13 +105,6 @@
     },
     {
       "id": "6",
-      "imageUrl":"https://assets.burberry.com/is/image/Burberryltd/59A26034-20BD-41C5-B176-6F8856C6ED0D?$BBY_V3_SL_1$&wid=1250&hei=1250" ,
-      "carouselImages": [
-        "https://assets.burberry.com/is/image/Burberryltd/12691ADC-9EA1-42E7-963A-BB15E3A9197D?$BBY_V3_ML_1$&wid=1250&hei=1250",
-        "https://assets.burberry.com/is/image/Burberryltd/C3FC43B9-3AE8-40F2-8096-625F4ED12E9A?$BBY_V3_ML_1$&wid=1250&hei=1250",
-        "https://assets.burberry.com/is/image/Burberryltd/AE9FAF75-D821-409D-AE9C-8145A901A0AA?$BBY_V3_ML_1$&wid=1250&hei=1250"
-        
-      ],
       "title": "Long Detachable Collar Gabardine Trench Coat",
       "price": "100.00",
       "color": "Flax",
@@ -164,13 +130,6 @@
       ]
     },{
       "id": "7",
-      "imageUrl":"https://assets.burberry.com/is/image/Burberryltd/0E11476D-E8C0-4808-81B4-070BA18C2D8D?$BBY_V3_SL_1$&wid=1250&hei=1250" ,
-      "carouselImages": [
-        "https://assets.burberry.com/is/image/Burberryltd/BBF90779-44FE-4305-8588-EEDF7B48C470?$BBY_V3_ML_1$&wid=1250&hei=1250",
-        "https://assets.burberry.com/is/image/Burberryltd/D397EBE5-730E-4EE0-AE0D-169C480BBF85?$BBY_V3_ML_1$&wid=1250&hei=1250",
-        "https://assets.burberry.com/is/image/Burberryltd/52D1A4ED-A4F1-4C86-ACD2-E830D9B324D6?$BBY_V3_ML_1$&wid=1250&hei=1250",
-        "https://assets.burberry.com/is/image/Burberryltd/E20B0938-8009-4217-B807-AAF4DC2B19D9?$BBY_V3_SL_1$&wid=1250&hei=1250"
-      ],
       "title": "Gabardine Trench Jacket",
       "price": "84.00",
       "color": "Black",
@@ -195,16 +154,8 @@
         }
       ]
     },
-   
     {
       "id": "8",
-      "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/41B4197B-CE75-4644-9F46-0FBB0C47098D?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImages": [
-        "https://assets.burberry.com/is/image/Burberryltd/6177079B-E0F6-4CBF-8FBB-B6DE32D72E44?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/B7044E66-9657-4C90-B594-C2F61B7423BA?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/0C489026-60D5-46FF-88DD-2377B1509BB6?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/5895F84B-F73A-420E-BF1B-C201E5B033BD?$BBY_V3_SL_1$&wid=1050&hei=1050"
-      ],
       "title": "Cotton Blend Shorts",
       "price": "680.00",
       "color": "Soap",
@@ -231,14 +182,342 @@
     },
     {
       "id": "9",
+      "title": "Skinny Check Silk Scarf" ,
+      "price": "68.00",
+      "color": "Black/calico",
+      "prodDetails": "A skinny scarf made in Italy from silk twill, printed with the Burberry Check and framed with a solid colour border. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Tapered tips – Item 80947011",
+      "fabric":"– 100% silk – Specialist dry cleanv– Made in Italy",
+      "size": "– 100% silk – Specialist dry clean – Made in Italy",
+      "img": [
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/40A18740-4701-4DE4-BAF6-D2ABC8B69DAF?$BBY_V3_ML_1.275$&wid=479&hei=610"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/40A18740-4701-4DE4-BAF6-D2ABC8B69DAF?$BBY_V3_ML_1$&wid=1250&hei=1250"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/034B3C27-CBCC-4DA9-B611-64CA1395D978?$BBY_V3_ML_1$&wid=1250&hei=1250"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/32E49E84-EAAD-43A8-A233-EA132685CA7A?$BBY_V3_SL_1$&wid=1250&hei=1250"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "",
+      "title": ,
+      "price": "680.00",
+      "color": "S",
+      "prodDetails": ,
+      "fabric":,
+      "size": ,
+      "img": [
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        },
+        {
+          "image": 
+        }
+      ]
+    },
+    {
+      "id": "9",
       "title": "Cotton Mesh Vest",
-      "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/3D6C3FB6-4961-4E36-B228-BD0FF20658DD?$BBY_V3_SL_1$&wid=1050&hei=1050",
-      "carouselImages": [
-        "https://assets.burberry.com/is/image/Burberryltd/6875B7F0-E4C6-4267-8402-86617C31AA92?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/7B2FC230-8AA8-49FD-BC04-5D7ADDC2F737?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/AE2F5482-302C-4F96-BD4B-9F6D101022F5?$BBY_V3_ML_1$&wid=1050&hei=1050",
-        "https://assets.burberry.com/is/image/Burberryltd/802DC72D-E1DD-4A36-9862-06D008525399?$BBY_V3_SL_1$&wid=1050&hei=1050"
-      ],
       "price": "1000.00",
       "prodDetails": "A crew-neck vest made in Italy from lightweight cotton mesh. The style is cut to a relaxed fit and subtly knitted with our Equestrian Knight Design.– Rib-knit collar– Knitted Equestrian Knight Design at shoulder– Relaxed fit: a looser cut than our regular fit. Consider taking a size down.– Item 80898271",
       "size": "– Length: 75cm/29.5in (size UK M)– Model’s height: 184cm/6ft. Model wears size UK M",

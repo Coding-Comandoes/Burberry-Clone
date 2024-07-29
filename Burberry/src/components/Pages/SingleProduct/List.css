@@ -1,0 +1,45 @@
+@media(max-width:600px){
+    #img{
+        width:400px
+    }
+}
+@media(max-width:400px){
+    #img{
+        width:200px
+    }
+}
+/* List.css */
+
+.carousel-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; /* Hide overflow */
+    
+}
+
+.product img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.product p {
+    margin: 8px 0;
+    text-align: center;
+}
+
+/* Optional: Style the slick dots (pagination) */
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-dots li button:before {
+    color: #000; /* Change dot color */
+}

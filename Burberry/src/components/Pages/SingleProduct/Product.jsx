@@ -20,9 +20,12 @@ const Product = () => {
 
     return (
         
-        <div className="grid-container">
+        <div className="grid-container"
+        
+        >
+           
             {data.map( (el)  => (
-                <Card  imageUrl={el.imageUrl}  title={el.title} id={el.id} />
+                <Card  imageUrl1={el.img[0].image} imageUrl2={el.img[1].image}  title={el.title} id={el.id} />
                 
             ))}
         </div>
