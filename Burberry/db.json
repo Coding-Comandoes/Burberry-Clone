@@ -77,15 +77,12 @@
     },
     {
       "id": "5",
-<<<<<<< HEAD
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/158B0C18-34D7-4D36-8BEC-EC42D3C666A0?$BBY_V3_SL_1$&wid=1250&hei=1250",
       "carouselImages": [
         "https://assets.burberry.com/is/image/Burberryltd/68CBBA42-FA68-47C4-8C6F-87002E0B2600?$BBY_V3_ML_1$&wid=1250&hei=1250",
         "https://assets.burberry.com/is/image/Burberryltd/E98CE66D-368E-4C64-A92C-EDE668C57D4B?$BBY_V3_ML_1$&wid=1250&hei=1250",
         "https://assets.burberry.com/is/image/Burberryltd/58328B40-F68F-4706-A17C-A387EC2C3BC8?$BBY_V3_SL_1$&wid=1250&hei=1250"
       ],
-=======
->>>>>>> d65729c4d64f714be9b8ffc18493ad8e59383e22
       "title": "Gabardine Trench Jacket",
       "price": "$76.00",
       "color": "Flex",
@@ -112,15 +109,12 @@
     },
     {
       "id": "6",
-<<<<<<< HEAD
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/59A26034-20BD-41C5-B176-6F8856C6ED0D?$BBY_V3_SL_1$&wid=1250&hei=1250",
       "carouselImages": [
         "https://assets.burberry.com/is/image/Burberryltd/12691ADC-9EA1-42E7-963A-BB15E3A9197D?$BBY_V3_ML_1$&wid=1250&hei=1250",
         "https://assets.burberry.com/is/image/Burberryltd/C3FC43B9-3AE8-40F2-8096-625F4ED12E9A?$BBY_V3_ML_1$&wid=1250&hei=1250",
         "https://assets.burberry.com/is/image/Burberryltd/AE9FAF75-D821-409D-AE9C-8145A901A0AA?$BBY_V3_ML_1$&wid=1250&hei=1250"
       ],
-=======
->>>>>>> d65729c4d64f714be9b8ffc18493ad8e59383e22
       "title": "Long Detachable Collar Gabardine Trench Coat",
       "price": "100.00",
       "color": "Flax",
@@ -147,7 +141,6 @@
     },
     {
       "id": "7",
-<<<<<<< HEAD
       "imageUrl": "https://assets.burberry.com/is/image/Burberryltd/0E11476D-E8C0-4808-81B4-070BA18C2D8D?$BBY_V3_SL_1$&wid=1250&hei=1250",
       "carouselImages": [
         "https://assets.burberry.com/is/image/Burberryltd/BBF90779-44FE-4305-8588-EEDF7B48C470?$BBY_V3_ML_1$&wid=1250&hei=1250",
@@ -155,8 +148,6 @@
         "https://assets.burberry.com/is/image/Burberryltd/52D1A4ED-A4F1-4C86-ACD2-E830D9B324D6?$BBY_V3_ML_1$&wid=1250&hei=1250",
         "https://assets.burberry.com/is/image/Burberryltd/E20B0938-8009-4217-B807-AAF4DC2B19D9?$BBY_V3_SL_1$&wid=1250&hei=1250"
       ],
-=======
->>>>>>> d65729c4d64f714be9b8ffc18493ad8e59383e22
       "title": "Gabardine Trench Jacket",
       "price": "84.00",
       "color": "Black",
@@ -567,7 +558,6 @@
           "image": "https://assets.burberry.com/is/image/Burberryltd/802DC72D-E1DD-4A36-9862-06D008525399?$BBY_V3_SL_1$&wid=1050&hei=1050"
         }
       ]
-<<<<<<< HEAD
     },
     {
       "id": "10",
@@ -725,8 +715,6 @@
           "image": "https://assets.burberry.com/is/image/Burberryltd/2C657C9E-C106-4978-8AB3-C7E4E07661AB?$BBY_V3_SL_1$&wid=1050&hei=1050"
         }
       ]
-=======
->>>>>>> d65729c4d64f714be9b8ffc18493ad8e59383e22
     }
   ],
   "cart": [

@@ -6,13 +6,13 @@
 .Vertical {
     width: 65%;
     margin-top: 0;
-    height:900px;
+    height:850px;
     overflow-y: scroll;
     display:flex;
     flex-direction: column;
 }
 .Vertical #image{
-    width:100%
+    width:850px
 }
 
 .prodDiv{
