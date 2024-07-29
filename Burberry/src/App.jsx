@@ -12,6 +12,7 @@ import SignIn from './components/Pages/SingleProduct/SignIn';
 import Signup from './components/Pages/SingleProduct/SignUp';
 import SingleProduct from './components/Pages/SingleProduct/SingleProduct';
 import Allroutes from './components/Allroutes';
+import Bag from './components/Pages/SingleProduct/Bag';
 
 function App() {
   const [ecom,setEcom] = useState([]);
@@ -43,6 +44,7 @@ useEffect(()=>{
       <Route path="/product" element={<Product/>}/>
       <Route path="/signin" element={<SignIn/>}/>
       <Route path="/singleProduct/:id" element={<SingleProduct />} />
+      <Route path="/cart" element={<Bag/>}/>
 
 
         {/*<Route path='/Login' element={<Login/>} />  */}

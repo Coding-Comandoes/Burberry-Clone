@@ -14,20 +14,11 @@ const Card = ({id, imageUrl, title}) => {
     
 
     return (
-        <div 
-            className="card" 
-            
-        >
+        <div className="card" >
             <div className="product-image">
-            <img src={imageUrl} alt={title} className="card-image"  onMouseEnter={} onClick={()=>gotosingle(id)} />
-            
-            
-            
+            <img src={imageUrl} alt={title} className="card-image"  onClick={()=>gotosingle(id)} />
             </div>
-            <h3 className="card-title">{title}</h3>
-
-            
-           
+            <h3 className="card-title">{title}</h3> 
         </div>
     );
 };

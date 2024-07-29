@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import "./Bag.css"
 import { useNavigate } from 'react-router-dom';
-const Bag=()=>{
+const Bag = ()=>{
     const [cart, setCart] = useState([]);
 
     async function getData(){
