@@ -2,8 +2,8 @@ import React from 'react';
 
 const ContactUs = () => {
   return (
-    <div style={{ display: 'flex', padding: '20px', marginBottom: '-300px' }}>
-      <div style={{ width: '33%', paddingRight: '20px' }}>
+    <div style={{ display: 'flex', padding: '20px', marginBottom: '0px' }}>
+      <div style={{ width: '33%', paddingRight: '20px',marginTop:'30px'}}>
         <div style={{ backgroundColor: '#f9f9f9', padding: '10px', paddingTop: '50px', borderRadius: '5px', position: 'sticky', top: '20px' ,paddingBottom:'60px'}}>
           <ul style={{ listStyle: 'none', padding: '0' }}>
           <li style={{ margin: '10px 0', fontWeight: 'normal', fontSize: '13.2px' }}>1.<a style={{color:'black'}} href='/GeneralEnquiries'>General Enquiries</a></li>

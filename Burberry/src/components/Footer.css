@@ -103,7 +103,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  padding-top: 5px;
+  padding-top: 0px;
   margin-top: 30px;
 }
 
@@ -120,7 +120,7 @@
   margin-top: -5px;
   padding-bottom: 5px;
   margin-bottom: 5px;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .bottom a:hover {
@@ -131,10 +131,10 @@
   font-size: 1em;
   display: flex;
   flex-direction: column;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   margin-top: 30px;
-  margin-left: -20px;
-  margin-bottom: 7px;
+  margin-left: 0px;
+  margin-bottom:5px;
 }
 
 .footer-statement {
@@ -142,15 +142,14 @@
   margin-top: 25px;
   text-align: start;
   width: 100%;
-
 }
 
 .footer-statement p {
   margin: 0;
-  width: 40%;
+  width: 90%;
   padding-bottom: 60px;
   padding-left: 20px;
-  
+  font-size: 16px;
 }
 
 .footer-statement p a {

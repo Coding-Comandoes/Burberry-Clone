@@ -18,8 +18,6 @@ import BurberryGroupPlc from '../pages/BurberryGroupPlc';
 import Careers from '../pages/Careers';
 import TermsConditions from '../pages/TermsConditions';
 import Burberryx4GiftTermsConditions from '../pages/Burberryx4GiftTermsConditions';
-import PrivacyPolicy from '../pages/PrivacyPolicy';
-import CookiePolicy from '../pages/CookiePolicy';
 import AccessibilityStatement from '../pages/AccessibilityStatement';
 import GiftFAQ from '../pages/GiftFAQ';
 import Donotsellmypersonalinformation from '../pages/Donotsellmypersonalinformation';
@@ -52,8 +50,6 @@ const Allroutes = () => {
             <Route path='/careers' element={<Careers />} />
             <Route path='/termsconditions' element={<TermsConditions />} />
             <Route path='/burberry4gifttermsconditions' element={<Burberryx4GiftTermsConditions />} />
-            <Route path='/privacypolicy' element={<PrivacyPolicy />} />
-            <Route path='/cookiepolicy' element={<CookiePolicy />} />
             <Route path='/accessibilitystatement' element={<AccessibilityStatement />} />
             <Route path='/giftfaq' element={<GiftFAQ />} />
             <Route path='/donotsellmypersonalinformation' element={<Donotsellmypersonalinformation />} />

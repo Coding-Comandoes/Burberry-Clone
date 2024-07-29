@@ -23,7 +23,7 @@ const TrenchBespoke = () => {
         ></img>
         <div style={{ display: 'grid', justifyContent: 'center', position: 'relative', bottom: '-340px', color: 'white' }}>
           <h1 style={{ display: 'flex', justifyContent: 'center', marginBottom: '-10px', fontSize: '3.55em', fontWeight: 'normal' }}>Tench Bespoke</h1>
-          <h2 style={{ display: 'flex', justifyContent: 'center', fontSize: '23px', fontWeight: 'normal' }}>The personalisation experience.</h2>
+          <h2 style={{ display: 'flex', justifyContent: 'center', fontSize: '23px', fontWeight: 'normal',paddingTop: '10px' }}>The personalisation experience.</h2>
         </div>
       </div>
       <div style={{ position: 'relative', top: '340px', display: 'flex', justifyContent: 'space-between' }}>
@@ -98,8 +98,8 @@ const TrenchBespoke = () => {
           <a style={{fontSize:'15px'}} href='/ContactUs'>Contact Us</a>
         </div>
       </div>
-      <div style={{position:'relative',top:'550px',paddingBottom:'200px',display:'flex',gap:'40px'}}>
-        <img style={{height:'700px'}} src='https://assets.burberry.com/is/image/Burberryltd/D757FF09-A06B-4691-A7EB-01527578EFCA?wid=1366'></img>
+      <div style={{position:'relative',top:'550px',paddingBottom:'550px',display:'flex',gap:'40px'}}>
+        <img style={{height:'500px'}} src='https://assets.burberry.com/is/image/Burberryltd/D757FF09-A06B-4691-A7EB-01527578EFCA?wid=1366'></img>
         <div style={{display:'grid',alignItems:'center',paddingTop:'60px',paddingBottom:'65px',textAlign:'center'}}> 
           <p style={{fontSize:'15px'}}>121 Regent Street,London</p>
           <a style={{'fontSize':'15px',textDecoration:'none'}} href='/Store Locator'>Store Locator</a>

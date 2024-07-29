@@ -5,7 +5,7 @@ import React from 'react';
 const Shipping = () => {
  
   return (
-    <div style={{ display: 'flex', padding: '20px', marginBottom: '-250px' }}>
+    <div style={{ display: 'flex', padding: '20px', marginBottom: '0px' }}>
       <div style={{ width: '33%', paddingRight: '20px' }}>
         <div style={{ backgroundColor: '#f9f9f9', padding: '10px', paddingTop: '50px', borderRadius: '5px', position: 'sticky', top: '160px', paddingBottom: '50px' }}>
           <ul style={{ listStyle: 'none', padding: '0' }}>

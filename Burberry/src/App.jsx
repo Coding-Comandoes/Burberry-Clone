@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react'
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom'
 import './App.css';
@@ -13,6 +14,7 @@ import Signup from './components/Pages/SingleProduct/SignUp';
 import SingleProduct from './components/Pages/SingleProduct/SingleProduct';
 import Allroutes from './components/Allroutes';
 import Bag from './components/Pages/SingleProduct/Bag';
+
 
 function App() {
   const [ecom,setEcom] = useState([]);

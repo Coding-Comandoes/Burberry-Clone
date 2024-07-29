@@ -12,10 +12,10 @@ const AllServices = () => {
     return activeSection === section ? <ChevronUpIcon /> : <ChevronDownIcon />;
   };
   return (
-    <div>
+    <div style={{paddingBottom:'200px'}}>
       <div style={{position:'relative',top:'30px'}}>
-        <h1 style={{display:'flex',justifyContent:'center',fontSize:'58px',fontWeight:'normal'}}>Burberry Services</h1>
-        <div style={{display:'flex',justifyContent:'center',gap:'20px',marginTop:'-20px',fontSize:'15px'}}>
+        <h1 style={{display:'flex',justifyContent:'center',fontSize:'58px',fontWeight:'normal',marginTop:'110px'}}>Burberry Services</h1>
+        <div style={{display:'flex',justifyContent:'center',gap:'20px',marginTop:'0px',fontSize:'15px'}}>
           <a href='/BookanAppointment'>Book an Appointment</a>
           <a href='/ContanctUs'>Contact Us</a>
         </div>
