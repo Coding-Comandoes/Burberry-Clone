@@ -1,6 +1,16 @@
 body{
     background-color: white;
 }
+#leftArrow{
+    height:20px;
+    margin-top: 150%;
+    margin-left: 30px;
+}
+.MYBag{
+    margin-top: -10%;
+    padding-bottom: 30px;
+    text-align: center;
+}
 .back{
     background-color: white;
     font-size: medium;
@@ -167,6 +177,6 @@ body{
         font-size:10px;
     }
     #remove{
-        padding-left: 15px;
+        padding-left: 15px;
     }
 }

@@ -14,7 +14,7 @@ import SignUp from './components/Pages/SingleProduct/SignUp';
 import SingleProduct from './components/Pages/SingleProduct/SingleProduct';
 import Allroutes from './components/Allroutes';
 import Bag from './components/Pages/SingleProduct/Bag';
-
+import Zoomed from './components/Pages/SingleProduct/Zoomed';
 
 function App() {
   const [ecom,setEcom] = useState([]);
@@ -47,6 +47,7 @@ useEffect(()=>{
       <Route path="/signin" element={<SignIn/>}/>
       <Route path="/singleProduct/:id" element={<SingleProduct />} />
       <Route path="/cart" element={<Bag/>}/>
+      <Route path="/zoomed/:url" element={<Zoomed/>} />
 
 
         {/*<Route path='/Login' element={<Login/>} />  */}

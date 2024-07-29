@@ -70,7 +70,7 @@
 /*Modal style*/
 .Modal,.ModalContent{
     height:600px;
-    margin:0% 30% 0% 30%;
+    margin:5% 30% 0% 30%;
     overflow-y: scroll;
     padding: 3%;
     background-color:white;
@@ -266,10 +266,36 @@ h4{
     }
     .Modal,.ModalContent{
         padding:10px;
-        margin:0;
+        margin-top:12%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height:450px;
+    }
+}
+@media(max-width:800px){
+    .Modal,.ModalContent{
+        height:500px;
+    }
+}
+@media(max-width:600px){
+    .Modal,.ModalContent{
+        height:530px;
+        margin-top:20%;
+    }
+    .Detail{
+        margin-top: 10%;
+    }
+    .Vertical{
+        margin-top: 10%;
     }
 }
 @media(max-width:370px){
+    .Detail{
+        margin-top: 20%;
+    }
+    .Vertical{
+        margin-top: 20%;
+    }
     .Verticalcar img{
         height:300px;
         overflow-x: hidden;

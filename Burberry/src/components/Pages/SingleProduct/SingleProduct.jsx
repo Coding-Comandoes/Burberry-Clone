@@ -4,7 +4,8 @@ import { useState,useEffect } from 'react'
 import Recommend from './Recommend'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import {
   useDisclosure,
   Modal,
@@ -304,6 +305,11 @@ const renderDefaultView = () => (
         return renderDefaultView();
     }
   };
+  const navigate=useNavigate()
+  function Zoom(url){
+    const encodedUrl = encodeURIComponent(url);
+    navigate(`/zoomed/${encodedUrl}`)
+  }
 
   return (
     <>
@@ -311,12 +317,12 @@ const renderDefaultView = () => (
       {isSmallScreen ?(
       <Slider {...settingsVertical} className='Verticalcar'>
         {images.map(d=>(
-          <img src={d.image} id="image" ></img>
+          <img src={d.image} id="image"  onClick={()=>Zoom(d.image)}></img>
         ))}
       </Slider>) :(
       <div className='Vertical'>
         {images.map(d=>(
-          <img src={d.image} id="image" ></img>
+          <img src={d.image} id="image" onClick={()=>Zoom(d.image)}></img>
         ))}
         </div>
       )
