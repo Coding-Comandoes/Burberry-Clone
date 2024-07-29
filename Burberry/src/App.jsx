@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import SignIn from './components/Pages/SingleProduct/SignIn';
 import Signup from './components/Pages/SingleProduct/SignUp';
 import SingleProduct from './components/Pages/SingleProduct/SingleProduct';
+import Allroutes from './components/Allroutes';
 
 function App() {
   const [ecom,setEcom] = useState([]);
@@ -47,7 +48,7 @@ useEffect(()=>{
         {/*<Route path='/Login' element={<Login/>} />  */}
         </Routes>
     </div>
-      
+      <Allroutes/>
         <footer><Footer/></footer>
       
     </div>

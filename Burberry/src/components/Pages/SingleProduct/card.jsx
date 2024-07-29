@@ -6,6 +6,7 @@ const Card = ({id, imageUrl, title}) => {
     const navigate=useNavigate();
     
     
+    
    
     function gotosingle(id){
         navigate(`/singleProduct/${id}`);
@@ -18,7 +19,7 @@ const Card = ({id, imageUrl, title}) => {
             
         >
             <div className="product-image">
-            <img src={imageUrl} alt={title} className="card-image" onClick={()=>gotosingle(id)} />
+            <img src={imageUrl} alt={title} className="card-image"  onMouseEnter={} onClick={()=>gotosingle(id)} />
             
             
             

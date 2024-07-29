@@ -1,15 +1,27 @@
 /* ReadMoreLess.css */
 .text {
-    margin: 0;
+    margin-top: 20px;
     font-size: 24px;
     line-height: 1.2;
     align-items: center;
+  
 }
 
 .more-text {
     display: inline; /* Display additional text inline when expanded */
-    width: 100%;
+
    
+
+}
+.top{
+    margin-top: 20px;
+    width: 100%;
+}
+.text-size div{
+    width: 100px !important;
+    max-height: 20px;
+    margin-top: 20px;
+
 }
 
 .toggle-btn {
@@ -29,7 +41,7 @@
 .container {
     display: grid; /* Enables grid layout */
     grid-template-columns: 1fr 1fr; /* Two columns of equal width */
-    margin-top: 20px;
+   
     
 }
 .container h2{
