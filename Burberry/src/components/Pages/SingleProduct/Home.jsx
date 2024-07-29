@@ -41,7 +41,7 @@ const Home = () => {
             <div>
                 <br />
                 <br />
-                <h5 className="text">New In</h5>
+                <h5 className="text">Cheak Styles</h5>
                 <List/>
              
             </div>
