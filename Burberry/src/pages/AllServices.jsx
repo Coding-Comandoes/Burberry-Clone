@@ -14,7 +14,7 @@ const AllServices = () => {
   return (
     <div style={{paddingBottom:'200px'}}>
       <div style={{position:'relative',top:'30px'}}>
-        <h1 style={{display:'flex',justifyContent:'center',fontSize:'58px',fontWeight:'normal',marginTop:'110px'}}>Burberry Services</h1>
+        <h1 style={{display:'flex',justifyContent:'center',fontSize:'58px',fontWeight:'normal',marginTop:'110px'}}>Burberry Services</h1><br/>
         <div style={{display:'flex',justifyContent:'center',gap:'20px',marginTop:'0px',fontSize:'15px'}}>
           <a href='/BookanAppointment'>Book an Appointment</a>
           <a href='/ContanctUs'>Contact Us</a>
@@ -43,14 +43,14 @@ const AllServices = () => {
         <img src='https://assets.burberry.com/is/image/Burberryltd/B1CE68FF-DA29-4321-A08E-05C45FDDA5C9?wid=800 ' style={{ height: '900px', width: '50%', paddingRight: '15px',position:'relative',top:'0px' }} alt='Burberry'></img>
         <div style={{ flex: 1, paddingLeft: '15px' ,position:'relative',top:'0px'}}>
           <div style={{ paddingTop: '45px', position: 'sticky', top: '0' }}>
-            <h2 style={{ fontSize: '25px', fontWeight: 'normal' }}>Personalisation</h2>
+            <h2 style={{ fontSize: '25px', fontWeight: 'normal' }}>Personalisation</h2><br/>
             <p style={{ fontSize: '15px' }}>Add up to three initials on a selection of Burberry products - including lather accessories, scarves and fragrance - through embroidery,engraving or embossing in a range of colours.</p>
             <p style={{fontSize: '15px'}}>Available online and in selected stores, this complimentry service can be used on items up to three months after purchase.</p>
-            <div>
+            <div><br/>
               <a style={{ fontSize: '15px', paddingRight: '20px' }} href='/Scarves'>Scarves</a>
-              <a style={{ fontSize: '15px' }} href='/Menslatheraccessories'>Men's Leather Accessories</a>
-              <a style={{ fontSize: '15px' }} href='/Womenslatheraccessories'>Women's Leather Accessories</a>
-              <a style={{ fontSize: '15px' }} href='/Fragrance'>Fragrance</a>
+              <a style={{ fontSize: '15px',paddingRight:'20px'}} href='/Menslatheraccessories'>Men's Leather Accessories</a>
+              <a style={{ fontSize: '15px',paddingRight:'20px' }} href='/Womenslatheraccessories'>Women's Leather Accessories</a>
+              <a style={{ fontSize: '15px',paddingRight:'20px' }} href='/Fragrance'>Fragrance</a>
             </div>
           </div>
         </div>
@@ -62,10 +62,10 @@ const AllServices = () => {
         <img src='https://assets.burberry.com/is/image/Burberryltd/C94AFC37-B410-438C-AB84-7B45010622BA?wid=950' style={{ height: '900px', width: '50%', paddingRight: '15px',position:'relative',top:'0px' }} alt='Burberry'></img>
         <div style={{ flex: 1, paddingLeft: '15px' ,position:'relative',top:'0px'}}>
           <div style={{ paddingTop: '45px', position: 'sticky', top: '0' }}>
-            <h2 style={{ fontSize: '25px', fontWeight: 'normal' }}>Trench Bespoke</h2>
+            <h2 style={{ fontSize: '25px', fontWeight: 'normal' }}>Trench Bespoke</h2><br/>
             <p style={{ fontSize: '15px' }}>Create Personalised design that's unique to you, from a choice of bespoke gabardine colours,linings,buttons and embroidery - including applique patches..</p>
             <div>
-              <a style={{ fontSize: '15px', paddingRight: '20px' }} href='/TrenchBespoke'>Find Out More</a>
+              <br/><a style={{ fontSize: '15px', paddingRight: '20px' }} href='/TrenchBespoke'>Find Out More</a>
             </div>
           </div>
         </div>
@@ -77,10 +77,10 @@ const AllServices = () => {
         <img src='https://assets.burberry.com/is/image/Burberryltd/9379132E-47FC-4075-84EC-0EB820BB5B44?wid=1000' style={{ height: '900px', width: '50%', paddingRight: '15px',position:'relative',top:'0px' }} alt='Burberry'></img>
         <div style={{ flex: 1, paddingLeft: '15px' ,position:'relative',top:'0px'}}>
           <div style={{ paddingTop: '45px', position: 'sticky', top: '0' }}>
-            <h2 style={{ fontSize: '25px', fontWeight: 'normal' }}>Aftercare & Circular Services</h2>
+            <h2 style={{ fontSize: '25px', fontWeight: 'normal' }}>Aftercare & Circular Services</h2><br/>
             <p style={{ fontSize: '15px' }}>From Refresh, Repair and Remake to Resale and Rental, our host of circular services are designed to help ensure your Burberry pieces can be enjoyed for longer.</p>
             <div>
-              <a style={{ fontSize: '15px', paddingRight: '20px' }} href='/Aftercare'>Find Out More</a>
+              <br/><a style={{ fontSize: '15px', paddingRight: '20px' }} href='/Aftercare'>Find Out More</a>
             </div>
           </div>
         </div>
