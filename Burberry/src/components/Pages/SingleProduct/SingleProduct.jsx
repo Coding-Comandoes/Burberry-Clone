@@ -30,6 +30,8 @@ const SingleProduct = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   const [images,setImages]=useState([])
+  const { id } = useParams();
+
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 1024);
 
   useEffect(() => {
@@ -43,7 +45,7 @@ const SingleProduct = () => {
 
 
   async function getData(){
-      let res=await fetch(`http://localhost:3000/data/6`,{
+      let res=await fetch(`http://localhost:3000/data/${id}`,{
           headers:{
               "Content-type":"application/json"
           },
@@ -305,7 +307,6 @@ const renderDefaultView = () => (
   return (
     <>
      <div className='Detail'>
-      {console.log(window.innerWidth)}
       {isSmallScreen ?(
       <Slider {...settingsVertical} className='Verticalcar'>
         {images.map(d=>(

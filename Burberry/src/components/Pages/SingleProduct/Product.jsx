@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Card from "./card";
 import './Product.css'; // Import the CSS for layout
+import SingleProduct from "./SingleProduct";
+
+
 
 const Product = () => {
     const [data, setData] = useState([]);
+    
 
     useEffect(() => {
         async function fetchData() {
@@ -16,15 +20,11 @@ const Product = () => {
     }, []);
 
     return (
+        
         <div className="grid-container">
-            {data.map(({ id, imageUrl, carouselImages, name }) => (
-                <Card
-                    key={id}
-                    image={imageUrl}
-                    carouselImages={carouselImages}
-                    title={name}
-                    
-                />
+            {data.map( (el)  => (
+                <Card  imageUrl={el.imageUrl}  title={el.title} id={el.id} />
+                
             ))}
         </div>
     );

@@ -1,27 +1,30 @@
 import React, { useState } from "react";
 import './card.css'; // Import CSS for styling
+import { useNavigate, useSearchParams } from "react-router-dom";
 
-const Card = ({id, imageUrl, carouselImages, title}) => {
-    const [showCarousel, setShowCarousel] = useState(false);
+const Card = ({id, imageUrl, title}) => {
+    const navigate=useNavigate();
+    
+    
+   
+    function gotosingle(id){
+        navigate(`/singleProduct/${id}`);
+    }
+    
 
     return (
         <div 
             className="card" 
-            onMouseEnter={() => setShowCarousel(true)} 
-            onMouseLeave={() => setShowCarousel(false)}
+            
         >
             <div className="product-image">
-            <img src={imageUrl} alt={title} className="card-image" />
+            <img src={imageUrl} alt={title} className="card-image" onClick={()=>gotosingle(id)} />
             
-            {showCarousel && (
-                <div className="carousel-container  carousel media-carousel-labels">
-                        {carouselImages.map(({img, index}) => (
-                            <img  src={img} alt={`Carousel ${index}`} className="carousel-image" />
-                        ))}
-                </div>
-            )}
+            
+            
             </div>
-            <p className="card-title">{title}</p>
+            <h3 className="card-title">{title}</h3>
+
             
            
         </div>

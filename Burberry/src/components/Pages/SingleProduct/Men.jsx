@@ -12,8 +12,8 @@ const ReadMoreLess = () => {
     };
 
     return (
-        <div >
-            <p className="text">
+        <div className="text">
+            <p >
             The Burberry menswear collection offers a diverse range of styles for every season, including signature pieces like car coats and matching sets in Check patterns.
             <br />
             <br />

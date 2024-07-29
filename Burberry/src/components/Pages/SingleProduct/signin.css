@@ -1,13 +1,15 @@
 
+
 .mainDiv{
-  margin: 0px;
+  margin-top: 20px;
   padding: 30px 40px 30px 70px;
   font-family:Arial, Helvetica, sans-serif !important;
   display:flex;
   justify-content: space-between;
+  height: auto;
 }
 .signin{
-    width: 54%;
+    width: 40%;
     height: auto;
     font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -15,7 +17,8 @@
 .register-info {
     border-left: 2px solid rgb(203, 200, 200);
     padding: 60px;
-    width: 46%;
+    width: 40%;
+    height: auto;
     font-family: Arial, Helvetica, sans-serif !important;
 }
 .signin-button {
@@ -128,7 +131,7 @@
   .signin {
     width: 100%;
     margin-bottom: 2px solid black;
-  
+    height:25%;
   }
   .register-info {
     margin-left:0;

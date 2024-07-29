@@ -10,10 +10,11 @@
 .row {
   display: flex;
   flex-direction: column;
+  row-gap: -5px !important;
 }
 
 .bottom {
-  margin-bottom: -25px;
+  margin-bottom: -60px;
 }
 
 .bottom h2 {
@@ -49,15 +50,18 @@
   font-size: 1em;
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
   margin-top: 23px;
+  padding: 20px;
+ 
 }
 
 .footer-statement {
-  font-size: 0.65em;
+  font-size: 0.95em;
   margin-top: 25px;
   text-align: start;
   width: 100%;
+  margin-bottom: 50px;
+  padding: 20px;
 }
 
 .footer-statement p {

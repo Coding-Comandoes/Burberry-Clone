@@ -1,14 +1,14 @@
 import React, { useState,useEffect } from 'react'
 import "./Recommend.css"
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 
 const Recommend = () => {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
     const [var1,setVar1]=useState(null)
  
-//   function Single(p){
-//         navigate(`/product/${p.id}`);
-//   } 
+  function Single(p){
+        navigate(`/singleProduct/${p}`);
+  } 
 
 const [detail,setDetail]=useState([]);
   async function getData(){
@@ -17,9 +17,7 @@ const [detail,setDetail]=useState([]);
             "Content-type":"application/json"
         },
     })
-    let id="6"
     let data=await res.json();
-    data=data.filter(el=>el.id!=id)
     setDetail(data);
 
 }
