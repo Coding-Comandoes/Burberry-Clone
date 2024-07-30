@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 
 // Carousel settings
 const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -14,10 +14,10 @@ const settings = {
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true,
+                dots: false,
             },
         },
         {
@@ -25,6 +25,8 @@ const settings = {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                infinite:true,
+                dot:false,
             },
         },
     ],

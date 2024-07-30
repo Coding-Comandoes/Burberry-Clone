@@ -445,7 +445,7 @@ const Navbar = () => {
           {showSublist ? (
               <span onClick={handleBackButton}><span className='back-arrow'>&lt;</span>Back</span>
             ) : (
-              <span>Home</span>
+              <span><Link to="/home">Home</Link></span>
             )}
             <span className='close-icon' onClick={toggleSidebar}>&times;</span>
           </div>

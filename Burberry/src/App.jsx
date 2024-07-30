@@ -35,7 +35,7 @@ useEffect(()=>{
   return (
     <>
     <div>
-   <header>
+   <header >
       <Navbar/> 
    </header>
     <div>
