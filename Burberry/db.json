@@ -200,11 +200,11 @@
     },
     {
       "id": "9",
-      "title": "Skinny Check Silk Scarf" ,
+      "title": "Skinny Check Silk Scarf",
       "price": "68.00",
       "color": "Black/calico",
       "prodDetails": "A skinny scarf made in Italy from silk twill, printed with the Burberry Check and framed with a solid colour border. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Tapered tips – Item 80947011",
-      "fabric":"– 100% silk – Specialist dry cleanv– Made in Italy",
+      "fabric": "– 100% silk – Specialist dry cleanv– Made in Italy",
       "size": "– 100% silk – Specialist dry clean – Made in Italy",
       "img": [
         {
@@ -227,8 +227,8 @@
       "price": "9980.00",
       "color": "Black/calico",
       "prodDetails": "A compact shoulder bag in soft cotton twill, jacquard-woven in Burberry Check with a matching lining. The style features our B-cut zip pull and a slim leather shoulder strap. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Leather shoulder strap – Zip closure – Interior card slot – Hand-painted edges – Brushed metal hardware – Burberry Check lining – Comes with a dust bag – Item 80952951",
-      "fabric":"– Outer: 100% cotton – Trim: 100% lambskin – Linings: 100% cotton; 53% cotton, 47% polyurethane– Imported",
-      "size": "– 20 x 10 x 9cm/7.9 x 3.9 x 3.5in. Strap drop: 22cm/8.7in" ,
+      "fabric": "– Outer: 100% cotton – Trim: 100% lambskin – Linings: 100% cotton; 53% cotton, 47% polyurethane– Imported",
+      "size": "– 20 x 10 x 9cm/7.9 x 3.9 x 3.5in. Strap drop: 22cm/8.7in",
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/4BD3ABE0-B4D4-4440-A8AD-CC2985EACFE1?$BBY_V3_SL_1$&wid=1250&hei=1250"
@@ -249,12 +249,12 @@
     },
     {
       "id": "11",
-      "title":"Cotton Zip Hoodie" ,
+      "title": "Cotton Zip Hoodie",
       "price": "560.00",
       "color": "Soap",
-      "prodDetails": "A zip hoodie made from heavyweight cotton jersey. The style is cut to a relaxed fit and appliquéd with a tonal Equestrian Knight Design. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Zip closure – Pouch pockets – Rib-knit trims – Appliquéd Equestrian Knight Design at front – Relaxed fit: a looser cut than our regular fit. Consider taking a size down. – Machine wash – Item 80849611" ,
+      "prodDetails": "A zip hoodie made from heavyweight cotton jersey. The style is cut to a relaxed fit and appliquéd with a tonal Equestrian Knight Design. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Zip closure – Pouch pockets – Rib-knit trims – Appliquéd Equestrian Knight Design at front – Relaxed fit: a looser cut than our regular fit. Consider taking a size down. – Machine wash – Item 80849611",
       "fabric": "– 100% cotton* – Trim: 99% cotton, 1% elastane – *100% of the cotton in the main material is organic – Made in Portugal",
-      "size": "– Length: 62cm/24.4in (size UK S) – Model's height: 180cm/5ft 11in. Model wears size UK S" ,
+      "size": "– Length: 62cm/24.4in (size UK S) – Model's height: 180cm/5ft 11in. Model wears size UK S",
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/3DB2A9A7-CB75-45E6-A3EE-817C7F12BF14?$BBY_V3_SL_1$&wid=1250&hei=1250"
@@ -275,15 +275,15 @@
     },
     {
       "id": "12",
-      "title": "Cotton Track Pants" ,
+      "title": "Cotton Track Pants",
       "price": "2007.00",
       "color": "Soap",
-      "prodDetails":"A pair of track pants in heavyweight cotton with an appliquéd Equestrian Knight Design. The style is cut to a relaxed, straight leg. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Interior drawcord waist – Side slip pockets, back patch pocket – Appliquéd Equestrian Knight Design at back – Relaxed fit: a looser cut than our regular fit. Consider taking a size down. – Machine wash – Item 80873921" ,
-      "fabric":"– 100% cotton* – Pocket lining: 100% cotton – *100% of the cotton in the main material is organic – Made in Portugal",
-      "size":"– Inside leg length: 75cm/29.5in (size UK S) – Model's height: 180cm/5ft 11in. Model wears size UK S" ,
+      "prodDetails": "A pair of track pants in heavyweight cotton with an appliquéd Equestrian Knight Design. The style is cut to a relaxed, straight leg. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Interior drawcord waist – Side slip pockets, back patch pocket – Appliquéd Equestrian Knight Design at back – Relaxed fit: a looser cut than our regular fit. Consider taking a size down. – Machine wash – Item 80873921",
+      "fabric": "– 100% cotton* – Pocket lining: 100% cotton – *100% of the cotton in the main material is organic – Made in Portugal",
+      "size": "– Inside leg length: 75cm/29.5in (size UK S) – Model's height: 180cm/5ft 11in. Model wears size UK S",
       "img": [
         {
-          "image":"https://assets.burberry.com/is/image/Burberryltd/D5990973-AA72-4332-954D-974128DE76EF?$BBY_V3_SL_1$&wid=1250&hei=1250" 
+          "image": "https://assets.burberry.com/is/image/Burberryltd/D5990973-AA72-4332-954D-974128DE76EF?$BBY_V3_SL_1$&wid=1250&hei=1250"
         },
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/54D4C9C9-6257-49DA-906F-68932225B240?$BBY_V3_ML_1$&wid=1250&hei=1250"
@@ -301,11 +301,11 @@
     },
     {
       "id": "13",
-      "title": "Cropped Reversible Check Jacket" ,
+      "title": "Cropped Reversible Check Jacket",
       "price": "980.00",
       "color": "Sand",
       "prodDetails": "A lightweight jacket in Burberry Check twill, reversing to a solid colour in nylon. The design is cut to a relaxed fit with a cropped hem and is appliquéd with our Equestrian Knight Design. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Two-way zip closure – Drawcord hood and hem – Side zip pockets; reverse press-stud welt pockets – Elasticated cuffs – Appliquéd Equestrian Knight Design at front – Relaxed fit: a looser cut than our regular fit. Consider taking a size down. – Item 80872291",
-      "fabric":" – Outer: 100% polyester* – Trims: 100% polyester; 100% polyamide – Reverse: 100% polyamide – *The main material of this product (Burberry Check) is made with at least 50% recycled content – Specialist dry clean – Imported",
+      "fabric": " – Outer: 100% polyester* – Trims: 100% polyester; 100% polyamide – Reverse: 100% polyamide – *The main material of this product (Burberry Check) is made with at least 50% recycled content – Specialist dry clean – Imported",
       "size": "– Length: 52cm/20.5in (size UK S) – Model’s height: 180cm/5ft 11in. Model wears size UK S",
       "img": [
         {
@@ -315,7 +315,7 @@
           "image": "https://assets.burberry.com/is/image/Burberryltd/2066892A-E3FF-46EF-B306-008F20EC64C6?$BBY_V3_ML_1$&wid=1250&hei=1250"
         },
         {
-          "image":"https://assets.burberry.com/is/image/Burberryltd/330CA04D-9399-460A-BF9D-03BD66470BAC?$BBY_V3_ML_1$&wid=1250&hei=1250" 
+          "image": "https://assets.burberry.com/is/image/Burberryltd/330CA04D-9399-460A-BF9D-03BD66470BAC?$BBY_V3_ML_1$&wid=1250&hei=1250"
         },
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/49C662DC-7406-4046-84EE-A33E7AFCBE4C?$BBY_V3_ML_1$&wid=1250&hei=1250"
@@ -327,12 +327,12 @@
     },
     {
       "id": "14",
-      "title": "Check Shorts" ,
+      "title": "Check Shorts",
       "price": "480.00",
       "color": "Sand",
-      "prodDetails":"Drawcord shorts in a twill fabric woven with the Burberry Check. The style is cut to a regular fit and appliquéd with the Equestrian Knight Design. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Elasticated drawcord waist – Side zip pockets, back zip pocket – Appliquéd Equestrian Knight Design at back pocket – Regular fit. Fits true to size, take your normal size. – Item 80882901" ,
-      "fabric":"– 100% polyester* – Panels: 100% polyamide – *The main material of this product is made with at least 50% recycled content – Specialist dry clean – Imported",
-      "size":"– Inside leg length: 7cm/2.8in (size UK 6) – Model’s height: 180cm/5ft 11in. Model wears size UK 6" ,
+      "prodDetails": "Drawcord shorts in a twill fabric woven with the Burberry Check. The style is cut to a regular fit and appliquéd with the Equestrian Knight Design. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Elasticated drawcord waist – Side zip pockets, back zip pocket – Appliquéd Equestrian Knight Design at back pocket – Regular fit. Fits true to size, take your normal size. – Item 80882901",
+      "fabric": "– 100% polyester* – Panels: 100% polyamide – *The main material of this product is made with at least 50% recycled content – Specialist dry clean – Imported",
+      "size": "– Inside leg length: 7cm/2.8in (size UK 6) – Model’s height: 180cm/5ft 11in. Model wears size UK 6",
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/BC384941-CF96-4E41-9481-EBB0870FDEA9?$BBY_V3_SL_1$&wid=1250&hei=1250"
@@ -356,9 +356,9 @@
       "title": "Slim Fit Check Cotton Shirt",
       "price": "980.00",
       "color": "Sand",
-      "prodDetails":"A long-sleeved shirt in cotton poplin, woven in Italy with the Burberry Check. The design is tailored to a slim fit. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Button closure – Point collar – Single-button cuffs – Curved hem – Slim fit: this style is cut to a fitted silhouette. Fits true to size, take your normal size. – Machine wash – Item 80876291" ,
-      "fabric":"– 100% cotton* – Buttons: mother-of-pearl – *100% of the cotton in the main material is organic – Imported",
-      "size":"– Length: 67cm/26.4in (size UK 6) – Model’s height: 177cm/5ft 10in. Model wears size UK 6" ,
+      "prodDetails": "A long-sleeved shirt in cotton poplin, woven in Italy with the Burberry Check. The design is tailored to a slim fit. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Button closure – Point collar – Single-button cuffs – Curved hem – Slim fit: this style is cut to a fitted silhouette. Fits true to size, take your normal size. – Machine wash – Item 80876291",
+      "fabric": "– 100% cotton* – Buttons: mother-of-pearl – *100% of the cotton in the main material is organic – Imported",
+      "size": "– Length: 67cm/26.4in (size UK 6) – Model’s height: 177cm/5ft 10in. Model wears size UK 6",
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/DB69F7FA-1360-443D-A5E9-703407772503?$BBY_V3_SL_1$&wid=1250&hei=1250"
@@ -383,8 +383,8 @@
       "price": "890.00",
       "color": "Flax",
       "prodDetails": "A pyjama shirt in Italian-woven silk poplin printed with seasonal ivy and duck motifs. The style is tailored to a relaxed fit. – Button closure – Revere collar – Short sleeves – Chest patch pocket – Straight hem – Relaxed fit: a looser cut than our regular fit. Consider taking a size down. – Item 80925091",
-      "fabric":"– 100% silk – Buttons: mother-of-pearl – Specialist dry clean – Imported",
-      "size":"– Length: 69cm/27.2in (size UK 6) – Model’s height: 178cm/5ft 10in. Model wears size UK 6" ,
+      "fabric": "– 100% silk – Buttons: mother-of-pearl – Specialist dry clean – Imported",
+      "size": "– Length: 69cm/27.2in (size UK 6) – Model’s height: 178cm/5ft 10in. Model wears size UK 6",
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/0884BBF7-FED7-4E1A-9EF8-EAFC503C329F?$BBY_V3_SL_1$&wid=1250&hei=1250"
@@ -408,9 +408,9 @@
       "title": "Ivy Silk Shorts",
       "price": "780.00",
       "color": "Flax",
-      "prodDetails":"Shorts made from Italian-woven silk poplin printed with seasonal ivy and duck motifs, tailored to a regular fit. The drawcord waist is knitted with stripes and the Equestrian Knight Design. – Interior drawcord waist – Side slip pockets, back patch pocket – Knitted Equestrian Knight Design at waist – Regular fit. Fits true to size, take your normal size. – Item 80918001" ,
-      "fabric":"– 100% silk – Trim: 95% cotton, 5% silk – Pocket lining: 100% silk – Specialist dry clean – Imported",
-      "size":"– Inside leg length: 12.7cm/5in (size UK 6) – Model’s height: 178cm/5ft 10in. Model wears size UK 6" ,
+      "prodDetails": "Shorts made from Italian-woven silk poplin printed with seasonal ivy and duck motifs, tailored to a regular fit. The drawcord waist is knitted with stripes and the Equestrian Knight Design. – Interior drawcord waist – Side slip pockets, back patch pocket – Knitted Equestrian Knight Design at waist – Regular fit. Fits true to size, take your normal size. – Item 80918001",
+      "fabric": "– 100% silk – Trim: 95% cotton, 5% silk – Pocket lining: 100% silk – Specialist dry clean – Imported",
+      "size": "– Inside leg length: 12.7cm/5in (size UK 6) – Model’s height: 178cm/5ft 10in. Model wears size UK 6",
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/47B08086-D991-49E4-9477-727F6656CB74?$BBY_V3_SL_1$&wid=1250&hei=1250"
@@ -431,12 +431,12 @@
     },
     {
       "id": "18",
-      "title":"Striped Cotton Blend Top" ,
+      "title": "Striped Cotton Blend Top",
       "price": "1280.00",
       "color": "Safari/white",
       "prodDetails": "A crew-neck top made in Italy from a stretch cotton blend. The style is knitted with contrasting warped stripes and the Equestrian Knight Design. – Rib-knit trims – Slim fit: this style is cut to a fitted silhouette. Fits true to size, take your normal size. – Item 80902371",
-      "fabric":"– 38% viscose, 34% cotton, 19% polyamide, 7% polyester, 2% elastane – Specialist dry clean – Made in Italy",
-      "size":"– Length: 49cm/19.3in (size UK S) – Model's height: 178cm/5ft 10in. Model wears size UK S" ,
+      "fabric": "– 38% viscose, 34% cotton, 19% polyamide, 7% polyester, 2% elastane – Specialist dry clean – Made in Italy",
+      "size": "– Length: 49cm/19.3in (size UK S) – Model's height: 178cm/5ft 10in. Model wears size UK S",
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/B2263C90-0B9C-42B2-AD9C-C330F265B9C4?$BBY_V3_SL_1$&wid=1250&hei=1250"
@@ -460,8 +460,8 @@
       "title": "Striped Cotton Blend Dress",
       "price": "1580.00",
       "color": "Safari/white",
-      "prodDetails":"A crew-neck dress made in Italy from a stretch cotton blend. The sleeveless silhouette is knitted with contrasting warped stripes and the Equestrian Knight Design. – Rib-knit trims – Slim fit: this style is cut to a fitted silhouette. Fits true to size, take your normal size. – Item 80902401" ,
-      "fabric":"– 38% viscose, 34% cotton, 19% polyamide, 7% polyester, 2% elastane – Specialist dry clean – Made in Italy",
+      "prodDetails": "A crew-neck dress made in Italy from a stretch cotton blend. The sleeveless silhouette is knitted with contrasting warped stripes and the Equestrian Knight Design. – Rib-knit trims – Slim fit: this style is cut to a fitted silhouette. Fits true to size, take your normal size. – Item 80902401",
+      "fabric": "– 38% viscose, 34% cotton, 19% polyamide, 7% polyester, 2% elastane – Specialist dry clean – Made in Italy",
       "size": "– Length: 92cm/36.2in (size UK S) – Model’s height: 177cm/5ft 10in. Model wears size UK S",
       "img": [
         {
@@ -487,7 +487,7 @@
       "price": "560.00",
       "color": "Soap",
       "prodDetails": "A T-shirt in cotton jersey screen-printed with the Equestrian Knight Design. – Rib-knit neckline – Printed Equestrian Knight Design at front – Regular fit. Fits true to size, take your normal size. – Machine wash – Item 80907881",
-      "fabric":"– 100% cotton – Trim: 97% cotton, 3% elastane – Made in Portugal",
+      "fabric": "– 100% cotton – Trim: 97% cotton, 3% elastane – Made in Portugal",
       "size": "– Length: 61cm/24in (size UK S) – Model’s height: 180cm/5ft 11in. Model wears size UK S",
       "img": [
         {
@@ -512,9 +512,9 @@
       "title": "EKD Nylon Jacket",
       "price": "1780.00",
       "color": "Sunflower",
-      "prodDetails":"A lightweight hooded jacket in Italian-woven crinkled nylon with a perforated Equestrian Knight Design at the back and B-cut zip pulls. The packable style is cut to a relaxed fit and can be folded into a zip pouch. – Two-way zip closure – Elasticated hood, cuffs and hem – Side zip pockets – Mesh lining – Relaxed fit: a looser cut than our regular fit. Consider taking a size down. – Item 80899801" ,
-      "fabric":"– Outer: 100% polyamide – Lining: 100% polyamide – Specialist dry clean – Imported",
-      "size":"– Length: 64.5cm/25.4in (size UK S) – Model’s height: 178cm/5ft 10in. Model wears size UK S" ,
+      "prodDetails": "A lightweight hooded jacket in Italian-woven crinkled nylon with a perforated Equestrian Knight Design at the back and B-cut zip pulls. The packable style is cut to a relaxed fit and can be folded into a zip pouch. – Two-way zip closure – Elasticated hood, cuffs and hem – Side zip pockets – Mesh lining – Relaxed fit: a looser cut than our regular fit. Consider taking a size down. – Item 80899801",
+      "fabric": "– Outer: 100% polyamide – Lining: 100% polyamide – Specialist dry clean – Imported",
+      "size": "– Length: 64.5cm/25.4in (size UK S) – Model’s height: 178cm/5ft 10in. Model wears size UK S",
       "img": [
         {
           "image": "https://assets.burberry.com/is/image/Burberryltd/AE98701D-BCE3-4122-A123-8C953299DE5B?$BBY_V3_SL_1$&wid=1250&hei=1250"
@@ -718,30 +718,6 @@
     }
   ],
   "cart": [
-    {
-      "id": "2",
-      "title": "Wool Sweater",
-      "price": "1090.00",
-      "prodDetails": "A crew-neck sweater in lightweight wool with contrast stitching at the shoulder. Cut to a regular fit.– Rib-knit trims– Regular fit. Fits true to size, take your normal size.– Item 80775581",
-      "size": "– Length: 68cm/26.8in (size UK L)– Model’s height: 184cm/6ft. Model wears size UK L",
-      "fabric": "– 100% wool– Specialist dry clean– Made in Italy",
-      "fit": "M",
-      "img": [
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/979BE24F-AF68-45E3-A334-C070715AF341?$BBY_V3_SL_1$&wid=1050&hei=1050"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/8F78B4FC-A40F-4FBC-BCC2-6D87F0EA2384?$BBY_V3_ML_1$&wid=1050&hei=1050"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/38B12517-28E9-477B-9BEB-FBAC97998C1C?$BBY_V3_ML_1$&wid=1050&hei=1050"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/90331725-FED7-4E24-BC53-64CECF8AB256?$BBY_V3_ML_1$&wid=1050&hei=1050"
-        }
-      ],
-      "color": "Otter"
-    },
     {
       "id": "3",
       "title": "Cotton Mesh Sweater",
