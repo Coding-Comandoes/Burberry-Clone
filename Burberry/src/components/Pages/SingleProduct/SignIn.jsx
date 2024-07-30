@@ -21,7 +21,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const SignIn =() => {
@@ -148,7 +148,7 @@ const SignIn =() => {
     setFormErrors(errors);
     return Object.keys(errors).length === 0;
   };
-
+  const navigate=useNavigate()
   const handleSigninSubmit = async (event) => {
     event.preventDefault();
     if (validateForm()) {
@@ -157,6 +157,7 @@ const SignIn =() => {
         if (user[i].email === signinEmail && user[i].password === signinPassword) {
           userFound = true;
           alert("User signed in successfully!!");
+          navigate('/')
           break;
         }
       }
