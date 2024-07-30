@@ -234,7 +234,7 @@ h4{
     width:100%;
     height: 350px;
     flex-direction: row !important;
-    overflow-y:scroll ;
+    overflow-y:hidden ;
 }
 .Verticalcar img{
     width:100%;

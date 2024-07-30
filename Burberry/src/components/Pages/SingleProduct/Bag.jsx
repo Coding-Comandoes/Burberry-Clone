@@ -24,7 +24,7 @@ const Bag=()=>{
     }
     const navigate=useNavigate()
     function back(){
-        navigate('/')
+        navigate(-1)
     }
     
     useEffect(()=>{
