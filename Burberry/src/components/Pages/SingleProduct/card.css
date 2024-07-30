@@ -1,10 +1,12 @@
 .card {
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
     background-color: #fff;
     box-sizing: border-box;
     overflow: hidden; /* Ensures no content overflows the card */
+}
+.card h3{
+    padding-left: 10px;
 }
 
 .card-image {
@@ -35,10 +37,6 @@
     pointer-events: none;
     overflow: hidden;
 }
-
-
-
-
 
 .carousel-image {
     width: 100%;
