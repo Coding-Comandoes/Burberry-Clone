@@ -39,7 +39,7 @@
     
     font-weight: 400;
     font-family: 'BurberrySerif', serif;
-    font-size: 5.2rem;
+    font-size: 3.2rem;
     line-height: 5.6rem;
     letter-spacing: -0.05rem;
     text-align: center;
@@ -96,6 +96,15 @@
     width: 100%;
     height: 100%;
 }
+.img-text-1{
+    position:absolute;
+    padding: 20px;
+    font-size: 300%;
+    color:beige;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+    size-adjust: relative;
+}
 .img-text{
     position:absolute;
     padding: 20px;
@@ -123,11 +132,15 @@
     .container > div {
         flex: 1 1 100%;
     }
-
-    .img-text {
-        font-size: 20px;
+    .img-text-1 {
+        font-size: 15px !important;
     }
-
+    .img-text {
+        font-size: 15px !important;
+    }
+    .end-text{
+        font-size: 2.5rem;
+    }
     .text {
         font-size: 14px;
     }
@@ -135,16 +148,21 @@
 
 @media (max-width: 480px) {
     .img-text {
-        font-size: 18px;
+        font-size: 10px !important;
     }
-
+    .img-text-1 {
+        font-size: 10px !important;
+    }
     .text {
-        font-size: 12px;
+        font-size: 12px ;
     }
 
     .toggle-btn {
         font-size: 14px;
         padding: 6px 12px;
+    }
+    .end-text{
+        font-size: .95rem;
     }
 }
 
