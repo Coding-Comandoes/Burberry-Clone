@@ -428,7 +428,11 @@ const Navbar = () => {
       
         <div className="search-container" >
           <FontAwesomeIcon icon={faSearch} className="search-icon"  onMouseEnter={togglesearchbar} />
-          
+          {showsearchbar ? (
+            <div className="search-box" onMouseLeave={togglesearchbar}>
+              <input type="text" placeholder="Search"  />
+            </div>
+          ) : null}
         </div>
           <Link to="/signin" className="user-icon"><FontAwesomeIcon icon={faUser} /></Link>
           <Link to="/cart" className="cart-icon"><FontAwesomeIcon icon={faShoppingBag} /></Link>
@@ -651,11 +655,6 @@ const Navbar = () => {
             <p>Sign in/Register</p>
             <p>Burberry Services</p>
           </div>
-          {showsearchbar ? (
-            <div className="search-box" onMouseLeave={togglesearchbar}>
-              <input type="text" placeholder="Search"  />
-            </div>
-          ) : null}
           </ul>
         </div>
     </nav>
