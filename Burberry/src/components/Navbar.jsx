@@ -283,7 +283,7 @@ const Navbar = () => {
                 </div>
               ) : null}
               </li>
-              <li><a href="#" onMouseEnter={toggleTrenchsubmenu} >Trench</a>
+              <li><Link to="/trench" onMouseEnter={toggleTrenchsubmenu} >Trench</Link>
               {showTrenchsubmenu ? (
                 <div className='dropdown-content' onMouseLeave={toggleTrenchsubmenu}>
                   <div className="column">

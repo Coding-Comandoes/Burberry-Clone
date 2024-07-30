@@ -22,6 +22,7 @@ li{
     border-bottom: 1px solid #ccc;
     background-color: #fff;
     z-index: 1000;
+    margin-left: -20px;
 }
 .logo{
     width:220px;

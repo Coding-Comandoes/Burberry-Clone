@@ -8,9 +8,9 @@ const Home = () => {
         <div className="size">
             <br />
             <br />
-            <div className="gallery-container " >
+            <div  >
                 <Link to="/product">
-                    <div className="img-text">
+                    <div className="img-text-1">
                     <h5>Burberry Classics</h5>
                     <h6>Men   Women</h6>
                     </div>
