@@ -82,7 +82,7 @@ const SingleProduct = () => {
       setButtonText("Added")
   }
   useEffect(()=>{
-      getData()},[]
+      getData()},[detail]
   )
   function prodetail(el){
       setProDetails(!prodetails ? el :'')
@@ -201,7 +201,7 @@ const renderDefaultView = () => (
             <p className='p'>Complimentary and plastic-free</p>
           </div>
           
-          <button className='data' onClick={() => prodetail(el.prodDetails)}><p>Product Details</p><p>{prodetails===el.prodDetails?'-':'+'}</p></button>
+          <button className='data' style={{marginTop:"30px"}} onClick={() => prodetail(el.prodDetails)}><p>Product Details</p><p>{prodetails===el.prodDetails?'-':'+'}</p></button>
           <p className='det'>{prodetails}</p>
           <button className='data' onClick={() => sizes(el.size)}><p>Size & Fit</p><p>{size===el.size?'-':'+'}</p></button>
           <p className='det'>{size}</p>
