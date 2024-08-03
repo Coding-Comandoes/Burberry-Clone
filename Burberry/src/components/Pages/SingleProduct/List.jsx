@@ -73,11 +73,11 @@ const List = () => {
 
     return (
         <div className='carousel-container'>
-            <Slider {...settings}>
+            <Slider {...settings} className="carousel">
                 {detail.map((d) => (
                     <div
                         key={d.id}
-                        className='product'
+                        className='productdata'
                         onMouseEnter={() => handleHover(d.id)}
                         onMouseLeave={handleLeave}
                         onClick={() => Single(d.id)}
@@ -85,6 +85,7 @@ const List = () => {
                         <img
                             src={var1 === d.id ? d.img[1].image : d.img[0].image}
                             alt={d.title}
+                            id="imgs"
                         />
                         <p>{var1 === d.id ? d.title : ''}</p>
                     </div>
