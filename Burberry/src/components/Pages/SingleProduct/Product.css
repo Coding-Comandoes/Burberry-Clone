@@ -13,8 +13,9 @@
 }
 
 .view-more-button {
-    color: #fff;
+    color: blue;
     border-color:blue;
+    background-color: white;
     padding: 10px 15px;
     margin-top: 10px;
     cursor: pointer;
@@ -22,6 +23,7 @@
 }
 .view-more-button:hover{
     background-color:blue;
+    color:white
 }
 .product-containor{
     padding: 20px;

@@ -177,6 +177,20 @@ body{
         font-size:10px;
     }
     #remove{
-        padding-left: 15px;
+        padding-left: 15px;
     }
+}
+@media (max-width:262px){
+    .prodCart .cart{
+        display: flex;
+        flex-direction: column;
+    }
+    .bag .detail{
+        width:100%;
+        justify-content: center;
+    }
+    .bag img{
+        width:100%;
+    }
+
 }
