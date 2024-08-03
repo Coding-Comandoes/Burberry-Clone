@@ -42,7 +42,7 @@ useEffect(()=>{
       <div className='Prods'>
             {detail.map((d)=>{
             return(
-                <div className='productdata' onMouseEnter={()=>handleHover(d.id)} onMouseLeave={handleLeave} onClick={()=>Single(d.id)}>
+                <div className='recomdata' onMouseEnter={()=>handleHover(d.id)} onMouseLeave={handleLeave} onClick={()=>Single(d.id)}>
                     <img src={var1===d.id ? d.img[1].image :  d.img[0].image} alt={d.title} id="imge"  ></img>
                     <p>{var1===d.id ? '' : d.title}</p>
                     <p>{var1===d.id ? '' : d.price}</p>

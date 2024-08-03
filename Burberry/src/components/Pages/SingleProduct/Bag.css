@@ -31,6 +31,7 @@ body{
     width:35%;
     background-color: rgb(231, 238, 238);
     height:350px;
+    padding-top:15px;
 }
 .mainDivCart{
     display: flex;

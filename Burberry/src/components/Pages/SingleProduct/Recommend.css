@@ -8,7 +8,7 @@
 #imge{
     width:600px
 }
-.productdata{
+.recomdata{
     font-size: 15px;
     font-weight: 300;
     width:100%;
@@ -18,7 +18,7 @@
     overflow-x: scroll;
     width:100%
 }
-.productdata p{
+.recomdata p{
     margin-left: 20px;
 }
 
