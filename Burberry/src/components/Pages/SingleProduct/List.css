@@ -1,11 +1,23 @@
 @media(max-width:600px){
     #img{
-        width:400px
+        width:100%
     }
+    .carousel-container {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+    }
+
 }
 @media(max-width:400px){
     #img{
-        width:200px
+        width:100%;
+        height: auto;
+    }
+    .carousel-container {
+        width: 100%;
+        padding: 20px;
+        height: auto;
     }
 }
 /* List.css */

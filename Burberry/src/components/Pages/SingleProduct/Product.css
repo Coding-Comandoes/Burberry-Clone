@@ -7,6 +7,26 @@
     margin-top: 10px;
     
 }
+.view-more-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.view-more-button {
+    color: #fff;
+    border-color:blue;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.view-more-button:hover{
+    background-color:blue;
+}
+.product-containor{
+    padding: 20px;
+    margin-top: 10px;
+}
 
 /* Optional: Add media queries for responsive design */
 @media (max-width: 1200px) {

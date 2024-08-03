@@ -81,3 +81,47 @@
     display: grid; /* Enables grid layout */
     grid-template-columns: 1fr  1fr 1fr; /* Three columns of equal width */
 }
+/* Responsive styles for tablets and mobile devices */
+@media (max-width: 768px) {
+    .containor-trench  {
+        flex: 1 1 1 calc(50% - 10px); /* 2 items per row */
+    }
+
+    .img-text-1, .img-text-2 {
+        font-size: 0.8rem;
+        padding: 5px;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .text, .para {
+        font-size: 0.9rem;
+    }
+
+    .toggle-btn {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .containor-trench  {
+        flex: 1 1 1 100% !important; /* 1 item per row */
+    }
+
+    .img-text-1, .img-text-2 {
+        font-size: 0.7rem;
+        padding: 4px;
+        bottom: 8px;
+        left: 8px;
+    }
+
+    .text, .para {
+        font-size: 0.8rem;
+    }
+
+    .toggle-btn {
+        font-size: 0.7rem;
+        padding: 6px 12px;
+    }
+}
