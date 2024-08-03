@@ -117,7 +117,7 @@ body{
 @media(max-width:1094px){
     .mainDivCart .detail{
         width:55%;
-        margin-left: 0;
+        margin-left: 20px;
     }
     #remove{
         padding-left:20px;
@@ -180,7 +180,7 @@ body{
         padding-left: 15px;
     }
 }
-@media (max-width:262px){
+@media (max-width:300px){
     .prodCart .cart{
         display: flex;
         flex-direction: column;
