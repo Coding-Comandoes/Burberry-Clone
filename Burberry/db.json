@@ -744,6 +744,33 @@
         }
       ],
       "color": "Soap"
+    },
+    {
+      "id": "13",
+      "title": "Cropped Reversible Check Jacket",
+      "price": "980.00",
+      "prodDetails": "A lightweight jacket in Burberry Check twill, reversing to a solid colour in nylon. The design is cut to a relaxed fit with a cropped hem and is appliquéd with our Equestrian Knight Design. Part of Burberry Classics, wardrobe foundations with a unique Burberry slant. – Two-way zip closure – Drawcord hood and hem – Side zip pockets; reverse press-stud welt pockets – Elasticated cuffs – Appliquéd Equestrian Knight Design at front – Relaxed fit: a looser cut than our regular fit. Consider taking a size down. – Item 80872291",
+      "size": "– Length: 52cm/20.5in (size UK S) – Model’s height: 180cm/5ft 11in. Model wears size UK S",
+      "fabric": " – Outer: 100% polyester* – Trims: 100% polyester; 100% polyamide – Reverse: 100% polyamide – *The main material of this product (Burberry Check) is made with at least 50% recycled content – Specialist dry clean – Imported",
+      "fit": "S",
+      "img": [
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/D2348ED8-3210-415B-8CCC-1C7BF5FCB751?$BBY_V3_SL_1$&wid=400&hei=400"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/2066892A-E3FF-46EF-B306-008F20EC64C6?$BBY_V3_ML_1$&wid=1250&hei=1250"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/330CA04D-9399-460A-BF9D-03BD66470BAC?$BBY_V3_ML_1$&wid=1250&hei=1250"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/49C662DC-7406-4046-84EE-A33E7AFCBE4C?$BBY_V3_ML_1$&wid=1250&hei=1250"
+        },
+        {
+          "image": "https://assets.burberry.com/is/image/Burberryltd/2F8194A6-89BF-44EA-A608-FFD268BB78D3?$BBY_V3_SL_1$&wid=1250&hei=1250"
+        }
+      ],
+      "color": "Sand"
     }
   ],
   "user": [
@@ -756,18 +783,6 @@
       "email": "smtsrichandan@gmail.com",
       "password": "nmjs",
       "phone": "+917735586269",
-      "signinEmail": "",
-      "signinPassword": ""
-    },
-    {
-      "id": 1722312214587.067,
-      "country": "Austria",
-      "gender": "Mrs",
-      "firstName": "Tanuja",
-      "lastName": "Gajavelli",
-      "email": "bhanu123@gmail.com",
-      "password": "ab",
-      "phone": "+01234567889",
       "signinEmail": "",
       "signinPassword": ""
     }
