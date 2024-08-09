@@ -50,7 +50,7 @@ const Bag=()=>{
                 {cart.map((el)=>(
                     <div className='prodCart'>
                         <div className='cart'>
-                            <div style={{height:"1px",backgroundColor:"gray",width:'65%'}}></div>
+                            <div style={{height:"1px",backgroundColor:"gray",width:'90%'}}></div>
                             <div className="bag">
                             <img src={el.img[0].image}  onClick={()=>Single(el.id)}></img>
                             <div className='detail'>
@@ -65,7 +65,7 @@ const Bag=()=>{
                                 <p id='price'>USD {el.price}</p>
                             </div>
                             </div>
-                            <div style={{height:"1px",backgroundColor:"gray",width:'65%',marginTop:"30px"}}></div>
+                            <div style={{height:"1px",backgroundColor:"gray",width:'90%',marginTop:"30px"}}></div>
                         </div>
                         <div className='payment'>
                             <h3 style={{textAlign:"center"}}>Your Order Summary</h3>

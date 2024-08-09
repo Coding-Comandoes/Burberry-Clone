@@ -31,6 +31,7 @@ body{
     width:35%;
     background-color: rgb(231, 238, 238);
     height:350px;
+    padding-top:15px;
 }
 .mainDivCart{
     display: flex;
@@ -117,7 +118,7 @@ body{
 @media(max-width:1094px){
     .mainDivCart .detail{
         width:55%;
-        margin-left: 0;
+        margin-left: 20px;
     }
     #remove{
         padding-left:20px;
@@ -177,6 +178,20 @@ body{
         font-size:10px;
     }
     #remove{
-        padding-left: 15px;
+        padding-left: 15px;
     }
+}
+@media (max-width:300px){
+    .prodCart .cart{
+        display: flex;
+        flex-direction: column;
+    }
+    .bag .detail{
+        width:100%;
+        justify-content: center;
+    }
+    .bag img{
+        width:100%;
+    }
+
 }

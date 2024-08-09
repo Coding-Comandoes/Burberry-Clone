@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 
 // Carousel settings
 const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -14,10 +14,10 @@ const settings = {
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true,
+                dots: false,
             },
         },
         {
@@ -25,6 +25,8 @@ const settings = {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                infinite:true,
+                dot:false,
             },
         },
     ],
@@ -71,11 +73,11 @@ const List = () => {
 
     return (
         <div className='carousel-container'>
-            <Slider {...settings}>
+            <Slider {...settings} className="carousel">
                 {detail.map((d) => (
                     <div
                         key={d.id}
-                        className='product'
+                        className='productdata'
                         onMouseEnter={() => handleHover(d.id)}
                         onMouseLeave={handleLeave}
                         onClick={() => Single(d.id)}
@@ -83,6 +85,7 @@ const List = () => {
                         <img
                             src={var1 === d.id ? d.img[1].image : d.img[0].image}
                             alt={d.title}
+                            id="imgs"
                         />
                         <p>{var1 === d.id ? d.title : ''}</p>
                     </div>
