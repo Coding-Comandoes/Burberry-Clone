@@ -9,7 +9,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "api": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
@@ -22,7 +23,6 @@
     "@mui/icons-material": "^5.16.5",
     "@mui/material": "^5.16.5",
     "framer-motion": "^11.3.19",
-    "json-server": "^1.0.0-beta.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-phone-number-input": "^3.4.4",
@@ -39,6 +39,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "gh-pages": "^6.1.1",
+    "json-server": "^1.0.0-beta.2",
     "vite": "^5.3.4"
   }
 }
