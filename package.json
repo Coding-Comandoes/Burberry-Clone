@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "api": "json-server --watch db.json --port 5000"
+    "api": "json-server --watch db.json"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
