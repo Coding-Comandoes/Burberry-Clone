@@ -41,7 +41,7 @@ useEffect(()=>{
     <div>
     <Routes>
 
-      <Route path="/" element={<Home/>}/>
+      <Route path="/Burberry-Clone" element={<Home/>}/>
       <Route path="/home" element={<Home/>} />
       <Route path="/men" element={<Men/>} />
       <Route path="/women" element={<Women/>} />
