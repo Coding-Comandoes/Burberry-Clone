@@ -42,7 +42,6 @@ useEffect(()=>{
     <Routes>
 
       <Route path="/" element={<Home/>}/>
-      <Route path='/' element={<Home/>}/>
       <Route path="/home" element={<Home/>} />
       <Route path="/men" element={<Men/>} />
       <Route path="/women" element={<Women/>} />
