@@ -1317,33 +1317,6 @@
   ],
   "cart": [
     {
-      "id": "8",
-      "title": "Cotton Blend Shorts",
-      "price": "680.00",
-      "prodDetails": "Drawcord shorts made in Italy from lightweight cotton mesh. The style is cut to a relaxed fit and subtly knitted with our Equestrian Knight Design.– Drawcord waist– Side slip pockets– Knitted Equestrian Knight Design at waist– Relaxed fit: a looser cut than our regular fit. Consider taking a size down.– Item 80898321",
-      "size": "– Inside leg length: 25.5cm/10in (size UK S)– Model’s height: 190cm/6ft 3in. Model wears size UK S",
-      "fabric": "– 100% cotton– Trim: 89% cotton, 10% polyamide, 1% elastane– Specialist dry clean– Made in Italy",
-      "fit": "M",
-      "img": [
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/41B4197B-CE75-4644-9F46-0FBB0C47098D?$BBY_V3_SL_1$&wid=1050&hei=1050"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/6177079B-E0F6-4CBF-8FBB-B6DE32D72E44?$BBY_V3_ML_1$&wid=1050&hei=1050"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/B7044E66-9657-4C90-B594-C2F61B7423BA?$BBY_V3_ML_1$&wid=1050&hei=1050"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/0C489026-60D5-46FF-88DD-2377B1509BB6?$BBY_V3_ML_1$&wid=1050&hei=1050"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/5895F84B-F73A-420E-BF1B-C201E5B033BD?$BBY_V3_SL_1$&wid=1050&hei=1050"
-        }
-      ],
-      "color": "Soap"
-    },
-    {
       "id": "7",
       "title": "Gabardine Trench Jacket",
       "price": "84.00",
