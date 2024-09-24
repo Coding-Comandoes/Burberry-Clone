@@ -301,9 +301,7 @@ cursor:pointer;
 .nav-menu ul{
     display: none;
 }
-.user-icon{
-    display: none;
-}
+
 .nav-icons {
     gap: 20px;
     font-size: 18px;
@@ -355,9 +353,7 @@ cursor:pointer;
 .nav-menu ul{
         display: none;
 }
-.user-icon{
-        display: none;
-}
+
 .nav-icons {
         gap: 20px;
         font-size: 18px;
