@@ -1315,35 +1315,7 @@
       ]
     }
   ],
-  "cart": [
-    {
-      "id": "7",
-      "title": "Gabardine Trench Jacket",
-      "price": "84.00",
-      "prodDetails": "Inspired by our heritage styles, a trench jacket made from Italian-woven cotton gabardine. The design features wide lapels, exaggerated epaulettes and is partially lined in Burberry Check. Cut to a regular fit with a belt to adjust the silhouette. – Double-breasted button closure – Throat latch – Epaulettes – B buckle belt – Side welt pockets – Belted cuffs – Burberry Check undercollar and lining – Comes with a garment bag – Regular fit. Fits true to size, take your normal size. – Item 80955071",
-      "size": "– Length: 76cm/29.9in (size UK 6) – Model’s height: 177cm/5ft 10in. Model wears size UK 6",
-      "fabric": "– Outer: 100% cotton – Lining: 100% cotton – Sleeve lining: 100% viscose – Buttons: buffalo horn – Specialist dry clean – Imported",
-      "fit": "XL",
-      "img": [
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/0E11476D-E8C0-4808-81B4-070BA18C2D8D?$BBY_V3_SL_1$&wid=1250&hei=1250"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/BBF90779-44FE-4305-8588-EEDF7B48C470?$BBY_V3_ML_1$&wid=1250&hei=1250"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/D397EBE5-730E-4EE0-AE0D-169C480BBF85?$BBY_V3_ML_1$&wid=1250&hei=1250"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/52D1A4ED-A4F1-4C86-ACD2-E830D9B324D6?$BBY_V3_ML_1$&wid=1250&hei=1250"
-        },
-        {
-          "image": "https://assets.burberry.com/is/image/Burberryltd/E20B0938-8009-4217-B807-AAF4DC2B19D9?$BBY_V3_SL_1$&wid=1250&hei=1250"
-        }
-      ],
-      "color": "Black"
-    }
-  ],
+  "cart": [],
   "user": [
     {
       "id": "1722675705709.1953",
